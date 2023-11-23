@@ -37,7 +37,8 @@ Set up your environment variables. Create a `.env` file in the root directory wi
 ```
 DB_NAME="aiPortal_db"
 DB_USER="[your_mysql_username]"
-DB_PW="[your_mysql_password]"
+DB_PW="[your_mysql_password]"  
+SESS_SECRET="[your_session_secret]"
 ```
 
 ## Database Setup
