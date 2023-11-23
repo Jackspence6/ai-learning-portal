@@ -8,7 +8,7 @@
 			"To replace human labor",
 			"To improve data storage"
 		],
-		"correct_answer": 0
+		"correct_answers": 0
 	},
 	{
 		"tutorial_id": 2,
@@ -19,7 +19,7 @@
 			"Reinforcement Learning",
 			"Automated Learning"
 		],
-		"correct_answer": 3
+		"correct_answers": 3
 	},
 	{
 		"tutorial_id": 3,
@@ -30,13 +30,13 @@
 			"Solar systems",
 			"Biological evolution"
 		],
-		"correct_answer": 0
+		"correct_answers": 0
 	},
 	{
 		"tutorial_id": 4,
 		"questions": "Which of these is an example of AI in everyday life?",
 		"answers": ["Smartphones", "Virtual Assistants", "Microwaves", "LED Bulbs"],
-		"correct_answer": 1
+		"correct_answers": 1
 	},
 	{
 		"tutorial_id": 5,
@@ -47,6 +47,6 @@
 			"To guide responsible use of AI",
 			"To increase AI system speeds"
 		],
-		"correct_answer": 2
+		"correct_answers": 2
 	}
 ]
