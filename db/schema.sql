@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS aiPortal_db;
+
+CREATE DATABASE aiPortal_db;
