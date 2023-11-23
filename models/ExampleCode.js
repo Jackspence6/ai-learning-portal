@@ -2,24 +2,16 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class UserProgress extends Model {}
+class ExampleCode extends Model {}
 
-// UserProgress Model properties
-UserProgress.init(
+// ExampleCode Model properties
+ExampleCode.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			primaryKey: true,
 			autoIncrement: true,
-		},
-		user_id: {
-			type: DataTypes.INTEGER,
-			allowNull: false,
-			references: {
-				model: "users",
-				key: "id",
-			},
 		},
 		tutorial_id: {
 			type: DataTypes.INTEGER,
@@ -29,13 +21,13 @@ UserProgress.init(
 				key: "id",
 			},
 		},
-		progress_status: {
-			type: DataTypes.ENUM("Not Started", "In Progress", "Completed"),
+		code_snippet: {
+			type: DataTypes.TEXT,
 			allowNull: false,
 		},
-		quiz_scores: {
-			type: DataTypes.JSON,
-			allowNull: true,
+		description: {
+			type: DataTypes.TEXT,
+			allowNull: false,
 		},
 	},
 	{
@@ -43,9 +35,9 @@ UserProgress.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "userProgress",
+		modelName: "exampleCode",
 	}
 );
 
 // Exports
-module.exports = UserProgress;
+module.exports = ExampleCode;
