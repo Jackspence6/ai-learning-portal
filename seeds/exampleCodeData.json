@@ -1,0 +1,27 @@
+[
+	{
+		"tutorial_id": 1,
+		"code_snippet": "console.log('Hello AI');",
+		"description": "Simple JavaScript code to print a message."
+	},
+	{
+		"tutorial_id": 2,
+		"code_snippet": "console.log('Learning ML');",
+		"description": "Basic console log statement for ML."
+	},
+	{
+		"tutorial_id": 3,
+		"code_snippet": "console.log('Deep Learning is fascinating');",
+		"description": "Deep learning log statement."
+	},
+	{
+		"tutorial_id": 4,
+		"code_snippet": "console.log('Data Science in AI');",
+		"description": "Print statement for data science."
+	},
+	{
+		"tutorial_id": 5,
+		"code_snippet": "console.log('AI Applications');",
+		"description": "Logging AI applications."
+	}
+]

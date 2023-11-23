@@ -1,0 +1,32 @@
+[
+	{
+		"user_id": 1,
+		"tutorial_id": 1,
+		"progress_status": "Completed",
+		"quiz_scores": "{\"score\": 80}"
+	},
+	{
+		"user_id": 2,
+		"tutorial_id": 2,
+		"progress_status": "In Progress",
+		"quiz_scores": "{\"score\": 70}"
+	},
+	{
+		"user_id": 3,
+		"tutorial_id": 3,
+		"progress_status": "Not Started",
+		"quiz_scores": null
+	},
+	{
+		"user_id": 4,
+		"tutorial_id": 4,
+		"progress_status": "Completed",
+		"quiz_scores": "{\"score\": 90}"
+	},
+	{
+		"user_id": 5,
+		"tutorial_id": 5,
+		"progress_status": "In Progress",
+		"quiz_scores": "{\"score\": 60}"
+	}
+]

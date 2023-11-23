@@ -1,0 +1,52 @@
+[
+	{
+		"tutorial_id": 1,
+		"question": "What is the primary goal of AI?",
+		"answers": [
+			"To create systems that can perform tasks requiring human intelligence",
+			"To develop games",
+			"To replace human labor",
+			"To improve data storage"
+		],
+		"correct_answer": 0
+	},
+	{
+		"tutorial_id": 2,
+		"question": "Which is not a type of Machine Learning?",
+		"answers": [
+			"Supervised Learning",
+			"Unsupervised Learning",
+			"Reinforcement Learning",
+			"Automated Learning"
+		],
+		"correct_answer": 3
+	},
+	{
+		"tutorial_id": 3,
+		"question": "What do neural networks mimic?",
+		"answers": [
+			"Human brain",
+			"Computer processors",
+			"Solar systems",
+			"Biological evolution"
+		],
+		"correct_answer": 0
+	},
+	{
+		"tutorial_id": 4,
+		"question": "Which of these is an example of AI in everyday life?",
+		"answers": ["Smartphones", "Virtual Assistants", "Microwaves", "LED Bulbs"],
+		"correct_answer": 1
+	},
+	{
+		"tutorial_id": 5,
+		"question": "Why are ethics important in AI?",
+		"answers": [
+			"To ensure AI systems are secure",
+			"To make AI systems more efficient",
+			"To guide responsible use of AI",
+			"To increase AI system speeds"
+		],
+		"correct_answer": 2
+	}
+]
