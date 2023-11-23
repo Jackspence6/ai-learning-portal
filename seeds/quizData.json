@@ -1,7 +1,7 @@
 [
 	{
 		"tutorial_id": 1,
-		"question": "What is the primary goal of AI?",
+		"questions": "What is the primary goal of AI?",
 		"answers": [
 			"To create systems that can perform tasks requiring human intelligence",
 			"To develop games",
@@ -12,7 +12,7 @@
 	},
 	{
 		"tutorial_id": 2,
-		"question": "Which is not a type of Machine Learning?",
+		"questions": "Which is not a type of Machine Learning?",
 		"answers": [
 			"Supervised Learning",
 			"Unsupervised Learning",
@@ -23,7 +23,7 @@
 	},
 	{
 		"tutorial_id": 3,
-		"question": "What do neural networks mimic?",
+		"questions": "What do neural networks mimic?",
 		"answers": [
 			"Human brain",
 			"Computer processors",
@@ -34,13 +34,13 @@
 	},
 	{
 		"tutorial_id": 4,
-		"question": "Which of these is an example of AI in everyday life?",
+		"questions": "Which of these is an example of AI in everyday life?",
 		"answers": ["Smartphones", "Virtual Assistants", "Microwaves", "LED Bulbs"],
 		"correct_answer": 1
 	},
 	{
 		"tutorial_id": 5,
-		"question": "Why are ethics important in AI?",
+		"questions": "Why are ethics important in AI?",
 		"answers": [
 			"To ensure AI systems are secure",
 			"To make AI systems more efficient",
