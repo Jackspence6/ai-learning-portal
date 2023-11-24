@@ -1,0 +1,206 @@
+/******************************************/
+/* Variable Selectors */
+/******************************************/
+
+/******************************************/
+/* Universal Selector */
+/******************************************/
+/* 1rem is 13px */
+html {
+	font-size: 13px;
+}
+/******************************************/
+/* Element Selectors */
+/******************************************/
+nav {
+	background-color: black;
+	height: 5rem;
+}
+
+/* Logo Icon */
+nav .brand-logo {
+	font-size: 4.5rem;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+nav ul li a {
+	font-family: "Tektur", cursive;
+	text-decoration: 1px dotted whitesmoke underline;
+}
+
+body {
+	background-color: #24292e;
+}
+
+h1 {
+	font-family: "Edu SA Beginner", cursive;
+	font-size: 2rem;
+	color: white;
+	margin-top: 10px;
+}
+
+h2 {
+	font-family: "Tektur", cursive;
+	font-size: 1rem;
+	color: #c9c9c7;
+	margin-bottom: 0px;
+}
+
+h5 {
+	border-bottom: 1px solid;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 0.9rem;
+	color: #b6b2bf;
+}
+
+/* Feature Images */
+img {
+	height: 30rem;
+	width: 45rem;
+	border-radius: 1rem;
+	order: 2;
+}
+
+/* Removing default button styles */
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-family: "Roboto Mono", monospace;
+	font-size: 1rem;
+	color: #b6b2bf;
+	background-color: #24292e;
+	transition: background-color 0.3s;
+}
+
+div.col.l6.col.s12 {
+	margin-top: 5px;
+}
+
+div.col.l4.offset-l2.col.s12 {
+	margin-top: 5px;
+}
+/******************************************/
+/* Class Selectors */
+/******************************************/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+
+/* Feature Containers */
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 5rem;
+}
+
+/* Feature Content */
+.content {
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+}
+
+/* Reversing the order of odd containers */
+.container:nth-child(odd) .content {
+	align-items: flex-start;
+	text-align: center;
+}
+
+/* Reversing the order of even containers */
+.container:nth-child(even) .content {
+	align-items: flex-end;
+	text-align: center;
+}
+
+/* Reversing the order of images in even containers */
+.container:nth-child(even) img {
+	order: 1;
+}
+
+/* Reversing the order of images in odd containers */
+.container:nth-child(odd) img {
+	order: -1;
+}
+
+/* Centering buttons relative to p tags */
+.button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.button-container a {
+	margin-top: 20px;
+}
+
+.col.s12 {
+	margin-top: 10rem;
+}
+
+.row {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-container {
+	padding: 10px;
+}
+
+.page-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: space-between;
+	padding: 0%;
+	margin-top: 1rem;
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: center;
+}
+/******************************************/
+/* ID Selectors */
+/******************************************/
+
+/******************************************/
+/* Media queries */
+/******************************************/
+
+/******************************************/
+/* Pseudo Classes and Elements */
+/******************************************/
+/* Nav Items when hovered on */
+nav ul a:hover {
+	color: red;
+}
+
+/* Learn More buttons when hovered on */
+.button-container a button:hover {
+	color: red;
+}
+
+button:hover {
+	background-color: black;
+	color: red;
+}
