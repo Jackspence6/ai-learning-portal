@@ -45,10 +45,14 @@ h5 {
 	border-bottom: 1px solid;
 }
 
+a {
+	font-weight: bold;
+}
+
 p {
 	font-family: "Roboto Mono", monospace;
-	font-size: 0.9rem;
-	color: #b6b2bf;
+	font-size: 1rem;
+	color: black;
 }
 
 /* Feature Images */
@@ -90,7 +94,7 @@ div.col.l4.offset-l2.col.s12 {
 }
 
 .card .card-content {
-	padding-bottom: 0%;
+	padding: 0%;
 }
 
 .col.s12 {
@@ -132,6 +136,18 @@ div.col.l4.offset-l2.col.s12 {
 
 .card .card-content .card-title {
 	margin-bottom: 1rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid white;
+	font-family: roboto mono;
+}
+
+.card .card-title {
+	font-weight: bold;
+	border-bottom: 5px solid black;
+	text-align: center;
+	font-family: roboto mono;
+	font-size: 20px;
 }
 
 .footer-container {
