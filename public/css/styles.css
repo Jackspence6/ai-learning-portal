@@ -199,6 +199,11 @@ div.col.l4.offset-l2.col.s12 {
 	display: flex;
 	justify-content: center;
 }
+
+.form-input {
+	color: white;
+	font-size: 15px;
+}
 /******************************************/
 /* ID Selectors */
 /******************************************/
