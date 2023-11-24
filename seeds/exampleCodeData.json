@@ -1,27 +1,87 @@
 [
 	{
 		"tutorial_id": 1,
-		"code_snippet": "console.log('Hello AI');",
-		"description": "Simple JavaScript code to print a message."
+		"code_snippet": "if (isIntelligent(system)) { learnAndAdapt(); }",
+		"description": "Pseudocode for checking intelligence in an AI system."
 	},
 	{
 		"tutorial_id": 2,
-		"code_snippet": "console.log('Learning ML');",
-		"description": "Basic console log statement for ML."
+		"code_snippet": "gen_model = GenerativeModel()",
+		"description": "Creating a basic generative model instance in pseudocode."
 	},
 	{
 		"tutorial_id": 3,
-		"code_snippet": "console.log('Deep Learning is fascinating');",
-		"description": "Deep learning log statement."
+		"code_snippet": "layer = nn.Conv2d(1, 20, 5)",
+		"description": "Defining a convolutional layer in a deep learning model."
 	},
 	{
 		"tutorial_id": 4,
-		"code_snippet": "console.log('Data Science in AI');",
-		"description": "Print statement for data science."
+		"code_snippet": "from sklearn.model_selection import train_test_split",
+		"description": "Importing train/test split function from scikit-learn for ML data preparation."
 	},
 	{
 		"tutorial_id": 5,
-		"code_snippet": "console.log('AI Applications');",
-		"description": "Logging AI applications."
+		"code_snippet": "neural_network = NeuralNetwork(layers=[10, 20, 10])",
+		"description": "Initializing a neural network with specified layers."
+	},
+	{
+		"tutorial_id": 6,
+		"code_snippet": "nltk.sentiment.vader.SentimentIntensityAnalyzer()",
+		"description": "Using NLTK's VADER for sentiment analysis in NLP."
+	},
+	{
+		"tutorial_id": 7,
+		"code_snippet": "cv2.imread('image.jpg', cv2.IMREAD_GRAYSCALE)",
+		"description": "Reading an image in grayscale with OpenCV for computer vision."
+	},
+	{
+		"tutorial_id": 8,
+		"code_snippet": "model = tf.keras.Sequential([tf.keras.layers.Dense(units=1, input_shape=[1])])",
+		"description": "Creating a simple model in TensorFlow."
+	},
+	{
+		"tutorial_id": 9,
+		"code_snippet": "torch.nn.Linear(10, 5)",
+		"description": "Defining a linear layer in PyTorch."
+	},
+	{
+		"tutorial_id": 10,
+		"code_snippet": "if bias_detected: correct_bias()",
+		"description": "Pseudocode for bias detection and correction in AI systems."
+	},
+	{
+		"tutorial_id": 11,
+		"code_snippet": "df = pandas.read_csv('data.csv')",
+		"description": "Reading a CSV file using Pandas for data wrangling."
+	},
+	{
+		"tutorial_id": 12,
+		"code_snippet": "aws_client = boto3.client('s3')",
+		"description": "Initializing an AWS S3 client in Python for cloud-based AI services."
+	},
+	{
+		"tutorial_id": 13,
+		"code_snippet": "spark.read.json('bigdata.json')",
+		"description": "Reading JSON data using Apache Spark for big data processing."
+	},
+	{
+		"tutorial_id": 14,
+		"code_snippet": "robot.move_to(x_coordinate, y_coordinate)",
+		"description": "Pseudocode for directing a robot to a specific position."
+	},
+	{
+		"tutorial_id": 15,
+		"code_snippet": "mqtt.connect('iot_device')",
+		"description": "Connecting to an IoT device using MQTT protocol."
+	},
+	{
+		"tutorial_id": 16,
+		"code_snippet": "shap_values = explainer.shap_values(X_train)",
+		"description": "Generating SHAP values to explain model predictions in XAI."
+	},
+	{
+		"tutorial_id": 17,
+		"code_snippet": "function checkAIUnderstanding() { /* ... */ }",
+		"description": "JavaScript function to assess AI literacy level."
 	}
 ]
