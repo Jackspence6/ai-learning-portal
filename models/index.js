@@ -25,13 +25,10 @@ UserProgress.belongsTo(Tutorials, {
 	foreignKey: "tutorial_id",
 });
 
-// Tutorial to Quiz (One-to-Many)
-Tutorials.hasMany(Quizzes, {
-	foreignKey: "tutorial_id",
-	onDelete: "CASCADE",
-});
+// Tutorial to Quiz
 Quizzes.belongsTo(Tutorials, {
 	foreignKey: "tutorial_id",
+	allowNull: true,
 });
 
 // Tutorial to ExampleCode (One-to-Many)
