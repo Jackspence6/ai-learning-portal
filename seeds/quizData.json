@@ -1,52 +1,376 @@
 [
 	{
 		"tutorial_id": 1,
-		"questions": "What is the primary goal of AI?",
-		"answers": [
-			"To create systems that can perform tasks requiring human intelligence",
-			"To develop games",
-			"To replace human labor",
-			"To improve data storage"
+		"questions": [
+			"What is a key characteristic of AI?",
+			"How can AI impact society and technology?",
+			"What might be a common application of AI in everyday life?"
 		],
-		"correct_answers": 0
+		"answers": [
+			[
+				"Automating physical tasks",
+				"Mimicking human intelligence",
+				"Data storage optimization"
+			],
+			[
+				"Limited to academic research",
+				"Transforming healthcare and transportation",
+				"Only impacting the tech industry"
+			],
+			[
+				"Manual labor",
+				"Basic calculators",
+				"Voice assistants and recommendation systems"
+			]
+		],
+		"correct_answers": [1, 1, 2]
 	},
 	{
 		"tutorial_id": 2,
-		"questions": "Which is not a type of Machine Learning?",
-		"answers": [
-			"Supervised Learning",
-			"Unsupervised Learning",
-			"Reinforcement Learning",
-			"Automated Learning"
+		"questions": [
+			"What distinguishes generative AI from traditional AI?",
+			"Can generative AI be used for creative purposes?",
+			"What is a potential challenge in developing generative AI?"
 		],
-		"correct_answers": 3
+		"answers": [
+			[
+				"More accurate predictions",
+				"Its ability to create new content",
+				"Faster data processing"
+			],
+			[
+				"No, it's only for data analysis",
+				"Yes, in creating art and music",
+				"It's solely used in gaming"
+			],
+			[
+				"Finding sufficient data",
+				"Both ethical use and data availability",
+				"Ensuring ethical use"
+			]
+		],
+		"correct_answers": [1, 1, 2]
 	},
 	{
 		"tutorial_id": 3,
-		"questions": "What do neural networks mimic?",
-		"answers": [
-			"Human brain",
-			"Computer processors",
-			"Solar systems",
-			"Biological evolution"
+		"questions": [
+			"What is the primary function of generative AI models?",
+			"How do generative AI models differ from traditional models?",
+			"What is a real-world example of generative AI?"
 		],
-		"correct_answers": 0
+		"answers": [
+			[
+				"Solving mathematical problems",
+				"Creating new, original content",
+				"Data storage"
+			],
+			[
+				"They are easier to program",
+				"They generate new data",
+				"They are faster"
+			],
+			["Web browsing", "Content creation in media", "Spreadsheet calculations"]
+		],
+		"correct_answers": [1, 1, 1]
 	},
 	{
 		"tutorial_id": 4,
-		"questions": "Which of these is an example of AI in everyday life?",
-		"answers": ["Smartphones", "Virtual Assistants", "Microwaves", "LED Bulbs"],
-		"correct_answers": 1
+		"questions": [
+			"What is the main focus of machine learning?",
+			"Which programming language is emphasized for machine learning in this tutorial?",
+			"What is an example of a machine learning application?"
+		],
+		"answers": [
+			[
+				"Data storage optimization",
+				"Creating intelligent robots",
+				"Automating decision-making"
+			],
+			["JavaScript", "C++", "Python"],
+			["Basic calculators", "Recommendation systems", "Manual data entry"]
+		],
+		"correct_answers": [2, 2, 1]
 	},
 	{
 		"tutorial_id": 5,
-		"questions": "Why are ethics important in AI?",
-		"answers": [
-			"To ensure AI systems are secure",
-			"To make AI systems more efficient",
-			"To guide responsible use of AI",
-			"To increase AI system speeds"
+		"questions": [
+			"What is deep learning a subset of?",
+			"How do neural networks relate to deep learning?",
+			"What might be a challenge in deep learning?"
 		],
-		"correct_answers": 2
+		"answers": [
+			["Data Science", "Software Engineering", "Artificial Intelligence"],
+			[
+				"Only used in data storage",
+				"Unrelated to deep learning",
+				"They are a key component"
+			],
+			["Algorithm complexity", "Both data and complexity", "Data availability"]
+		],
+		"correct_answers": [2, 2, 1]
+	},
+	{
+		"tutorial_id": 6,
+		"questions": [
+			"What is the focus of Natural Language Processing?",
+			"How does NLP benefit daily technology use?",
+			"What might be a use case of NLP?"
+		],
+		"answers": [
+			[
+				"Enhancing graphics",
+				"Optimizing databases",
+				"Understanding human language"
+			],
+			[
+				"Increasing storage capacity",
+				"Improving voice assistants",
+				"Speeding up computers"
+			],
+			["Physical automation", "Spreadsheet calculations", "Speech recognition"]
+		],
+		"correct_answers": [2, 1, 2]
+	},
+	{
+		"tutorial_id": 7,
+		"questions": [
+			"What does AI in computer vision aim to achieve?",
+			"How might AI in computer vision be used?",
+			"What is a challenge in AI for computer vision?"
+		],
+		"answers": [
+			["Storing images", "Rendering 3D models", "Interpreting visual data"],
+			["Data entry", "Audio processing", "Facial recognition systems"],
+			["Data overload", "Both privacy and overload", "Data privacy concerns"]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 8,
+		"questions": [
+			"What is TensorFlow primarily used for?",
+			"Can TensorFlow be used by beginners in AI?",
+			"What is an advantage of using TensorFlow?"
+		],
+		"answers": [
+			[
+				"Web development",
+				"Database management",
+				"Building and training AI models"
+			],
+			[
+				"No, it's for experts only",
+				"Only in gaming",
+				"Yes, it's beginner-friendly"
+			],
+			["Exclusive to experts", "Mainly its speed", "Wide community support"]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 9,
+		"questions": [
+			"What is PyTorch commonly used for?",
+			"How does PyTorch facilitate AI development?",
+			"Is PyTorch suitable for deep learning projects?"
+		],
+		"answers": [
+			["Graphic design", "Web development", "AI development"],
+			[
+				"By optimizing storage",
+				"By automating content creation",
+				"By providing an intuitive interface"
+			],
+			[
+				"No, it's not suitable",
+				"Only for data analysis",
+				"Yes, especially for deep learning"
+			]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 10,
+		"questions": [
+			"Why is ethics important in AI development?",
+			"What might be an ethical concern in AI?",
+			"How can responsible AI development be achieved?"
+		],
+		"answers": [
+			[
+				"To enhance efficiency",
+				"Only to comply with laws",
+				"To ensure fair and unbiased systems"
+			],
+			["Improving processing speed", "Reducing storage costs", "Data privacy"],
+			[
+				"By focusing only on technical aspects",
+				"By limiting AI applications",
+				"By diverse team inclusion"
+			]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 11,
+		"questions": [
+			"What is the focus of data wrangling in AI?",
+			"Which tool is commonly used for data preprocessing in AI?",
+			"Why is data preprocessing crucial in AI?"
+		],
+		"answers": [
+			[
+				"Creating data visualizations",
+				"Preparing data for analysis",
+				"Optimizing algorithms"
+			],
+			["Photoshop", "MS Word", "Pandas"],
+			[
+				"To make data look attractive",
+				"To reduce storage space",
+				"To ensure data quality"
+			]
+		],
+		"correct_answers": [1, 2, 2]
+	},
+	{
+		"tutorial_id": 12,
+		"questions": [
+			"How does cloud computing benefit AI?",
+			"What might be a feature of cloud-based AI services?",
+			"Is cloud computing necessary for all AI applications?"
+		],
+		"answers": [
+			[
+				"Improving computational power",
+				"Both storage and computation",
+				"Enhancing storage capacity"
+			],
+			["Physical hardware", "Offline processing", "Scalability"],
+			["No, not always", "Only in data analysis", "Yes, always necessary"]
+		],
+		"correct_answers": [1, 2, 0]
+	},
+	{
+		"tutorial_id": 13,
+		"questions": [
+			"What role does big data play in AI?",
+			"How can big data improve AI applications?",
+			"What is a challenge when using big data in AI?"
+		],
+		"answers": [
+			[
+				"Improving UI design",
+				"Providing large datasets for analysis",
+				"Data storage"
+			],
+			[
+				"Simplifying algorithms",
+				"Reducing computational needs",
+				"Enhancing accuracy of predictions"
+			],
+			[
+				"Finding enough data",
+				"Algorithm simplification",
+				"Ensuring data privacy"
+			]
+		],
+		"correct_answers": [1, 2, 2]
+	},
+	{
+		"tutorial_id": 14,
+		"questions": [
+			"What is the goal of combining AI with robotics?",
+			"How does AI enhance robotics?",
+			"What might be a real-world application of AI in robotics?"
+		],
+		"answers": [
+			[
+				"Enhancing graphics",
+				"Improving storage",
+				"Creating intelligent machines"
+			],
+			[
+				"By reducing power consumption",
+				"By improving aesthetics",
+				"By enabling autonomous decision-making"
+			],
+			["Basic calculators", "Data entry", "Autonomous vehicles"]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 15,
+		"questions": [
+			"How does IoT relate to AI?",
+			"What is a potential benefit of IoT?",
+			"Can IoT devices operate independently of AI?"
+		],
+		"answers": [
+			[
+				"IoT is a subset of AI",
+				"They are unrelated",
+				"IoT devices often leverage AI"
+			],
+			[
+				"Reducing data usage",
+				"Enhancing connectivity and automation",
+				"Increasing manual tasks"
+			],
+			[
+				"Only in gaming",
+				"Yes, they can operate independently",
+				"No, they always need AI"
+			]
+		],
+		"correct_answers": [2, 1, 1]
+	},
+	{
+		"tutorial_id": 16,
+		"questions": [
+			"What is the purpose of Explainable AI (XAI)?",
+			"How does XAI benefit AI users?",
+			"What might be a challenge in implementing XAI?"
+		],
+		"answers": [
+			[
+				"To reduce AI costs",
+				"To improve AI efficiency",
+				"To make AI decisions transparent"
+			],
+			[
+				"Reduces data needed",
+				"Simplifies AI models",
+				"Enhances user trust and understanding"
+			],
+			[
+				"Ensuring data privacy",
+				"Both transparency and privacy",
+				"Balancing transparency with complexity"
+			]
+		],
+		"correct_answers": [2, 2, 2]
+	},
+	{
+		"tutorial_id": 17,
+		"questions": [
+			"What does 'AI for Everyone' aim to achieve?",
+			"Who is the primary audience for this tutorial?",
+			"Why is AI literacy important for non-technical audiences?"
+		],
+		"answers": [
+			[
+				"Focus on AI in gaming",
+				"Teach advanced AI concepts",
+				"Introduce AI literacy"
+			],
+			["Software developers", "AI experts", "Non-technical audiences"],
+			[
+				"For understanding computer hardware",
+				"For developing AI models",
+				"For informed decision-making"
+			]
+		],
+		"correct_answers": [2, 2, 2]
 	}
 ]
