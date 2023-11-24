@@ -1,27 +1,104 @@
 [
 	{
-		"title": "What is Artificial Intelligence?",
-		"description": "An introduction to AI concepts.",
-		"content": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. The term may also be applied to any machine that exhibits traits associated with a human mind, such as learning and problem-solving."
+		"title": "Intro to AI: Unlocking the Future",
+		"description": "A beginner's guide to understanding Artificial Intelligence and its impact.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=ad79nYk2keg&pp=ygULSW50cm8gdG8gQUk%3D"
 	},
 	{
-		"title": "Understanding Machine Learning",
-		"description": "Basics of machine learning and its types.",
-		"content": "Machine Learning is a subset of AI that enables a system to automatically learn and improve from experience. It focuses on the development of computer programs that can access data and use it to learn for themselves. The three main types are supervised learning, unsupervised learning, and reinforcement learning."
+		"title": "Intro to Generative AI",
+		"description": "A beginner's guide to understanding generative Artificial Intelligence and its impact.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=G2fqAlgmoPo"
 	},
 	{
-		"title": "Introduction to Neural Networks",
-		"description": "Exploring the structure of neural networks.",
-		"content": "Neural networks are a series of algorithms that mimic the operations of a human brain to recognize relationships between vast amounts of data. They are used in deep learning and for the purposes of clustering and classification."
+		"title": "Generative AI models",
+		"description": "A beginner's guide to understanding generative Artificial Intelligence models.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=hfIUstzHs9A&pp=ygUcIE5hdHVyYWwgTGFuZ3VhZ2UgUHJvY2Vzc2luZw%3D%3D"
 	},
 	{
-		"title": "AI in Everyday Life",
-		"description": "Examples of AI in daily life.",
-		"content": "AI is increasingly prevalent in our everyday lives. It appears in a variety of forms including virtual assistants, chatbots, recommendation systems, autonomous vehicles, and more. Each of these systems uses AI to interpret and respond to data in a way that mimics human decision making."
+		"title": "Machine Learning 101: From Data to Decisions",
+		"description": "Understanding the core principles of machine learning using python.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=7eh4d6sabA0&pp=ygUsTWFjaGluZSBMZWFybmluZyAxMDE6IEZyb20gRGF0YSB0byBEZWNpc2lvbnM%3D"
 	},
 	{
-		"title": "Ethics in AI",
-		"description": "The importance of ethics in AI development.",
-		"content": "Ethical considerations in AI involve issues like privacy, security, decision-making biases, job displacement, and more. As AI systems take on more decision-making roles, the ethical framework guiding their development and deployment becomes increasingly important."
+		"title": "Deep Dive into Deep Learning",
+		"description": "Unraveling the complexities of deep learning and neural networks.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=6M5VXKLf4D4&pp=ygUNRGVlcCBMZWFybmluZw%3D%3D"
+	},
+	{
+		"title": "Decoding Natural Language Processing",
+		"description": "Exploring how machines understand human language.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=fLvJ8VdHLA0&pp=ygUcIE5hdHVyYWwgTGFuZ3VhZ2UgUHJvY2Vzc2luZw%3D%3D"
+	},
+	{
+		"title": "Vision of the Future: AI in Computer Vision",
+		"description": "Understanding how AI enables machines to interpret visual data.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=OcycT1Jwsns&pp=ygUrVmlzaW9uIG9mIHRoZSBGdXR1cmU6IEFJIGluIENvbXB1dGVyIFZpc2lvbg%3D%3D"
+	},
+	{
+		"title": "TensorFlow in Action: Building AI Models",
+		"description": "Learn to build and train models using TensorFlow.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=VtRLrQ3Ev-U&pp=ygULVGVuc29yRmxvdyA%3D"
+	},
+	{
+		"title": "PyTorch Essentials: A Practical Approach",
+		"description": "Getting started with PyTorch for AI development.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=AS2cHhwcv0Q&pp=ygUSUHlUb3JjaCBFc3NlbnRpYWxz"
+	},
+	{
+		"title": "AI Ethics: Responsible AI Development",
+		"description": "Navigating the ethical considerations in AI.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=qpp1G0iEL_c&pp=ygUJQUkgRXRoaWNz"
+	},
+	{
+		"title": "Data Wrangling for AI: Preprocessing Techniques",
+		"description": "Mastering the art of data preprocessing for AI models using Pandas.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=XDAnFZqJDvI&pp=ygUvRGF0YSBXcmFuZ2xpbmcgZm9yIEFJOiBQcmVwcm9jZXNzaW5nIFRlY2huaXF1ZXM%3D"
+	},
+	{
+		"title": "Machine Learning on Cloud: Leveraging Cloud-Based AI Services",
+		"description": "Integrating cloud computing in AI solutions.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=f-Ly6qMETDY&pp=ygULQUkgb24gQ2xvdWQ%3D"
+	},
+	{
+		"title": "Harnessing Big Data for AI",
+		"description": "Utilizing big data technologies in AI applications.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=bAyrObl7TYE&pp=ygUaSGFybmVzc2luZyBCaWcgRGF0YSBmb3IgQUk%3D"
+	},
+	{
+		"title": "AI in Robotics: Creating Intelligent Machines",
+		"description": "Exploring the intersection of AI and robotics.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=yCXm5cgG0UA&pp=ygUVYWkgaW4gcm9ib3RpY3MgY291cnNl"
+	},
+	{
+		"title": "What is IoT?",
+		"description": "Discover how IoT works.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=6mBO2vqLv38&pp=ygUKSW9UIGFuZCBBSQ%3D%3D"
+	},
+	{
+		"title": "Demystifying Explainable AI (XAI)",
+		"description": "Making AI decisions transparent and understandable.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=jFHPEQi55Ko&pp=ygUhRGVteXN0aWZ5aW5nIEV4cGxhaW5hYmxlIEFJIChYQUkp"
+	},
+	{
+		"title": "AI for Everyone: An Introduction to AI Literacy",
+		"description": "Broadening AI understanding for non-technical audiences.",
+		"image_url": "",
+		"youtube_url": "https://www.youtube.com/watch?v=J87vGLCBXDY&pp=ygULQUkgTGl0ZXJhY3k%3D"
 	}
 ]

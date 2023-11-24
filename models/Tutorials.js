@@ -22,6 +22,10 @@ Tutorials.init(
 			type: DataTypes.TEXT,
 			allowNull: false,
 		},
+		image_url: {
+			type: DataTypes.STRING,
+			allowNull: false,
+		},
 		youtube_url: {
 			type: DataTypes.STRING,
 			allowNull: false,
