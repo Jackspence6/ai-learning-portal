@@ -30,6 +30,22 @@ Tutorials.init(
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
+		topic: {
+			type: DataTypes.ENUM,
+			values: [
+				"Supervised Learning",
+				"Unsupervised Learning",
+				"Deep Learning",
+				"Ensemble Learning",
+				"Dimensionality Reduction",
+				"Clustering",
+				"Decision Tree",
+				"Bayesian",
+				"Neural Network",
+				"Reinforcement Learning",
+			],
+			allowNull: false,
+		},
 		date_created: {
 			type: DataTypes.DATE,
 			allowNull: false,
