@@ -1,0 +1,188 @@
+/******************************************/
+/* Variable Selectors */
+/******************************************/
+
+/******************************************/
+/* Universal Selector */
+/******************************************/
+/* 1rem is 13px */
+html {
+	font-size: 13px;
+}
+/******************************************/
+/* Element Selectors */
+/******************************************/
+nav {
+	background-color: black;
+	height: 5rem;
+}
+
+/* Logo Icon */
+nav .brand-logo {
+	font-size: 4.5rem;
+}
+
+body {
+	background-color: #24292e;
+}
+
+h1 {
+	font-family: monospace;
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}
+
+h2 {
+	font-family: "Tilt Prism", cursive;
+	color: white;
+	font-size: 2rem;
+	margin-top: 0px;
+}
+
+h5 {
+	border-bottom: 1px solid;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 0.9rem;
+	color: #b6b2bf;
+}
+
+/* Feature Images */
+img {
+	height: 30rem;
+	width: 45rem;
+	border-radius: 1rem;
+	order: 2;
+}
+
+div.col.l6.col.s12 {
+	margin-top: 5px;
+}
+
+div.col.l4.offset-l2.col.s12 {
+	margin-top: 5px;
+}
+/******************************************/
+/* Class Selectors */
+/******************************************/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.card {
+	border-radius: 1rem;
+	background-color: black;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.card-content span {
+	border-bottom: 2px solid;
+}
+
+.card .card-content {
+	padding-bottom: 0%;
+}
+
+.col.s12 {
+	margin-top: 10rem;
+}
+
+.row {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.input-field {
+	margin-bottom: 0px;
+	color: white;
+}
+
+.library-card {
+	width: 35%;
+	margin: 3rem;
+}
+
+.card-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 25rem;
+}
+
+.library-image {
+	height: 15rem;
+	width: 25rem;
+	margin: 2px;
+}
+
+.card-title {
+	color: white;
+}
+
+.card .card-content .card-title {
+	margin-bottom: 1rem;
+}
+
+.footer-container {
+	padding: 10px;
+}
+
+.page-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: space-between;
+	padding: 0%;
+	margin-top: 1rem;
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: center;
+}
+/******************************************/
+/* ID Selectors */
+/******************************************/
+#library-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Search bar for resource Library */
+#library-search {
+	width: 90%;
+	margin: 5rem;
+	border-radius: 2rem;
+}
+
+/* Resource Library contents container */
+#library-contents-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#search-icon {
+	position: absolute;
+	top: -7px;
+}
+/******************************************/
+/* Media queries */
+/******************************************/
+
+/******************************************/
+/* Pseudo Classes and Elements */
+/******************************************/
