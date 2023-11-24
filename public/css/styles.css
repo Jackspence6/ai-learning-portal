@@ -50,6 +50,26 @@ h2 {
 	margin-bottom: 0px;
 }
 
+h3 {
+	font-family: "Tektur", cursive;
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid;
+	padding: 5px;
+}
+
+h4 {
+	font-family: "Tektur", cursive;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: 5rem;
+	text-decoration: 1px underline;
+}
+
 h5 {
 	border-bottom: 1px solid;
 }
@@ -182,7 +202,43 @@ div.col.l4.offset-l2.col.s12 {
 /******************************************/
 /* ID Selectors */
 /******************************************/
+#login-page {
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 
+#login-container {
+	width: 40rem;
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 5px solid white;
+	padding: 20px;
+	height: 60vh;
+}
+
+#signup-container {
+	width: 40rem;
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 5px solid white;
+	padding: 20px;
+	height: 60vh;
+}
+
+#logSignBtn {
+	background-color: black;
+}
+
+#btnContainer {
+	display: flex;
+	justify-content: center;
+}
 /******************************************/
 /* Media queries */
 /******************************************/
