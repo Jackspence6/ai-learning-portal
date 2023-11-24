@@ -236,7 +236,11 @@ div.col.l4.offset-l2.col.s12 {
 	height: 60vh;
 }
 
-#logSignBtn {
+#logBtn {
+	background-color: black;
+}
+
+#SignBtn {
 	background-color: black;
 }
 
