@@ -15,7 +15,7 @@ Quizzes.init(
 		},
 		tutorial_id: {
 			type: DataTypes.INTEGER,
-			allowNull: true,
+			allowNull: false,
 			references: {
 				model: "tutorials",
 				key: "id",
@@ -46,6 +46,8 @@ Quizzes.init(
 				"Bayesian",
 				"Neural Network",
 				"Reinforcement Learning",
+				"Natural Language Processing",
+				"Computer Vision",
 			],
 			allowNull: false,
 		},

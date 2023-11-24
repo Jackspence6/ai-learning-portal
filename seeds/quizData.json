@@ -1,376 +1,2517 @@
 [
 	{
-		"tutorial_id": 1,
+		"tutorial_id": null,
+		"topic": "Supervised Learning",
 		"questions": [
-			"What is a key characteristic of AI?",
-			"How can AI impact society and technology?",
-			"What might be a common application of AI in everyday life?"
+			"Which of the following is a supervised learning algorithm?",
+			"In supervised learning, the training dataset consists of:",
+			"Which supervised learning algorithm is known for its ability to handle both classification and regression tasks?",
+			"The main objective of a classification algorithm in supervised learning is to:",
+			"Which supervised learning algorithm is based on the concept of 'nearest neighbors'?",
+			"Which algorithm is used to minimize the errors between predicted and actual outputs in supervised learning?",
+			"Which algorithm is prone to overfitting in supervised learning?",
+			"Which supervised learning algorithm is an ensemble method that combines multiple weak learners to make predictions?",
+			"The term 'supervised' in supervised learning refers to:",
+			"Which algorithm is suitable for handling multi-class classification problems in supervised learning?",
+			"Which supervised learning algorithm uses hyperplanes to separate classes?",
+			"Which supervised learning algorithm is based on the Bayes' theorem?",
+			"Which algorithm uses an ensemble of weak decision trees to make predictions?",
+			"Which supervised learning algorithm is used for time series forecasting?",
+			"Which algorithm is used for feature extraction in supervised learning?",
+			"Which supervised learning algorithm is prone to the 'curse of dimensionality'?",
+			"Which algorithm is commonly used for sentiment analysis in supervised learning?",
+			"Which supervised learning algorithm aims to find the line that best fits the given data points?",
+			"Which algorithm is used to reduce the dimensionality of the input features in supervised learning?",
+			"Which supervised learning algorithm is based on the concept of 'error backpropagation'?",
+			"Which algorithm is used for imputing missing values in supervised learning?",
+			"Which supervised learning algorithm is suitable for handling imbalanced datasets?",
+			"Which algorithm is used for collaborative filtering in supervised learning?",
+			"Which supervised learning algorithm uses a cost function based on the hinge loss?",
+			"Which algorithm is used for time series forecasting with recurrent connections?",
+			"Which supervised learning algorithm is sensitive to outliers in the training data?",
+			"Which algorithm is used for dimensionality reduction by preserving pairwise distances?",
+			"Which supervised learning algorithm is used for text classification?",
+			"Which algorithm is used for detecting anomalies in supervised learning?",
+			"Which supervised learning algorithm is used for recommendation systems?"
 		],
 		"answers": [
 			[
-				"Automating physical tasks",
-				"Mimicking human intelligence",
-				"Data storage optimization"
+				"K-means clustering",
+				"Decision tree",
+				"Principal Component Analysis (PCA)",
+				"Apriori algorithm"
 			],
 			[
-				"Limited to academic research",
-				"Transforming healthcare and transportation",
-				"Only impacting the tech industry"
+				"Input features only",
+				"Output labels only",
+				"Input features and output labels",
+				"None of the above"
 			],
 			[
-				"Manual labor",
-				"Basic calculators",
-				"Voice assistants and recommendation systems"
+				"Support Vector Machines (SVM)",
+				"Random Forest",
+				"K-nearest neighbors (KNN)",
+				"Linear Regression"
+			],
+			[
+				"Predict continuous values",
+				"Determine the optimal number of clusters",
+				"Assign input data to predefined categories or classes",
+				"Identify patterns in unlabeled data"
+			],
+			[
+				"K-means clustering",
+				"Decision tree",
+				"Naive Bayes",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"Decision tree",
+				"Gradient Boosting",
+				"K-means clustering",
+				"Principal Component Analysis (PCA)"
+			],
+			[
+				"Logistic Regression",
+				"Support Vector Machines (SVM)",
+				"K-means clustering",
+				"Linear Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Naive Bayes",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"The presence of a teacher or supervisor during the learning process",
+				"The use of labeled data for training",
+				"The requirement of human supervision for algorithm execution",
+				"The need for a predefined set of rules for decision making"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Naive Bayes",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Support Vector Machines (SVM)",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"K-means clustering",
+				"Decision tree",
+				"Naive Bayes",
+				"Linear Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Naive Bayes",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Recurrent Neural Networks (RNN)",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Principal Component Analysis (PCA)",
+				"Decision tree",
+				"Naive Bayes",
+				"Linear Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"K-nearest neighbors (KNN)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Naive Bayes",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"K-means clustering"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Principal Component Analysis (PCA)",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Artificial Neural Networks (ANN)",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Support Vector Machines (SVM)",
+				"K-nearest neighbors (KNN)"
+			],
+			["Logistic Regression", "Decision tree", "Naive Bayes", "Random Forest"],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"K-nearest neighbors (KNN)",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Long Short-Term Memory (LSTM)",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Logistic Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"Random Forest"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Support Vector Machines (SVM)",
+				"t-distributed Stochastic Neighbor Embedding (t-SNE)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Naive Bayes",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Isolation Forest",
+				"K-means clustering"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"Collaborative Filtering"
 			]
 		],
-		"correct_answers": [1, 1, 2]
+		"correct_answers": [
+			1,
+			2,
+			1,
+			2,
+			3,
+			1,
+			0,
+			1,
+			1,
+			1,
+			2,
+			2,
+			1,
+			2,
+			0,
+			2,
+			2,
+			0,
+			2,
+			2,
+			3,
+			3,
+			2,
+			2,
+			2,
+			1,
+			3,
+			2,
+			2,
+			3
+		]
 	},
 	{
-		"tutorial_id": 2,
+		"tutorial_id": null,
+		" topic": "Unsupervised Learning",
 		"questions": [
-			"What distinguishes generative AI from traditional AI?",
-			"Can generative AI be used for creative purposes?",
-			"What is a potential challenge in developing generative AI?"
+			"Which of the following is an unsupervised learning algorithm?",
+			"In unsupervised learning, the training dataset consists of:",
+			"Which unsupervised learning algorithm is used for dimensionality reduction?",
+			"The main objective of clustering algorithms in unsupervised learning is to:",
+			"Which unsupervised learning algorithm is based on the concept of 'nearest neighbors'?",
+			"Which algorithm is used to identify patterns or relationships in unlabeled data?",
+			"Which unsupervised learning algorithm is used for outlier detection?",
+			"Which algorithm is used for finding similar items or grouping similar data points together?",
+			"Which unsupervised learning algorithm is used for market basket analysis?",
+			"Which algorithm is used for recommendation systems?",
+			"Which unsupervised learning algorithm is used for finding the underlying structure or patterns in data?",
+			"Which algorithm is used for text document clustering?",
+			"Which unsupervised learning algorithm is used for density estimation?",
+			"Which algorithm is used for dimensionality reduction while preserving the neighborhood relationships of the data points?",
+			"Which unsupervised learning algorithm is used for market segmentation?",
+			"Which algorithm is used for anomaly detection in unsupervised learning?",
+			"Which unsupervised learning algorithm is used for finding frequent itemsets?",
+			"Which algorithm is used for clustering data points based on their density?",
+			"Which unsupervised learning algorithm is used for data visualization?",
+			"Which algorithm is used for finding association rules among items in a transactional dataset?",
+			"Which unsupervised learning algorithm is used for image compression?",
+			"Which algorithm is used for community detection in social network analysis?",
+			"Which unsupervised learning algorithm is used for data imputation?",
+			"Which algorithm is used for generating synthetic samples in unsupervised learning?",
+			"Which unsupervised learning algorithm is used for document topic modeling?",
+			"Which algorithm is used for clustering data points based on their connectivity?",
+			"Which unsupervised learning algorithm is used for reducing the dimensionality of text data?",
+			"Which algorithm is used for discovering sequential patterns in unsupervised learning?",
+			"Which unsupervised learning algorithm is used for market basket analysis with transaction weighting?",
+			"Which algorithm is used for density-based clustering that can handle non-linearly separable data?"
 		],
 		"answers": [
 			[
-				"More accurate predictions",
-				"Its ability to create new content",
-				"Faster data processing"
+				"Decision tree",
+				"K-means clustering",
+				"Random Forest",
+				"Support Vector Machines (SVM)"
 			],
 			[
-				"No, it's only for data analysis",
-				"Yes, in creating art and music",
-				"It's solely used in gaming"
+				"Input features only",
+				"Output labels only",
+				"Input features and output labels",
+				"None of the above"
 			],
 			[
-				"Finding sufficient data",
-				"Both ethical use and data availability",
-				"Ensuring ethical use"
+				"Principal Component Analysis (PCA)",
+				"Decision tree",
+				"Naive Bayes",
+				"Linear Regression"
+			],
+			[
+				"Predict continuous values",
+				"Determine the optimal number of clusters",
+				"Assign input data to predefined categories or classes",
+				"Identify patterns in unlabeled data"
+			],
+			[
+				"K-means clustering",
+				"Hierarchical clustering",
+				"Naive Bayes",
+				"K-nearest neighbors (KNN)"
+			],
+			[
+				"Decision tree",
+				"Association rule mining",
+				"K-means clustering",
+				"Principal Component Analysis (PCA)"
+			],
+			[
+				"Logistic Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"Isolation Forest"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Support Vector Machines (SVM)",
+				"Nearest Neighbors"
+			],
+			[
+				"Apriori algorithm",
+				"Decision tree",
+				"Naive Bayes",
+				"Linear Regression"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Collaborative Filtering",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Principal Component Analysis (PCA)",
+				"Naive Bayes"
+			],
+			[
+				"K-means clustering",
+				"Decision tree",
+				"Naive Bayes",
+				"Hierarchical clustering"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Gaussian Mixture Models (GMM)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"t-distributed Stochastic Neighbor Embedding (t-SNE)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"K-means clustering",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Support Vector Machines (SVM)",
+				"Isolation Forest"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Apriori algorithm",
+				"Naive Bayes"
+			],
+			[
+				"K-means clustering",
+				"DBSCAN",
+				"Support Vector Machines (SVM)",
+				"Nearest Neighbors"
+			],
+			[
+				"Principal Component Analysis (PCA)",
+				"Decision tree",
+				"Naive Bayes",
+				"Linear Regression"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Association rule mining",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"K-means clustering",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Spectral Clustering",
+				"Multinomial Logistic Regression"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Expectation-Maximization (EM) algorithm",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Variational Autoencoder (VAE)",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Latent Dirichlet Allocation (LDA)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"K-means clustering",
+				"Random Forest",
+				"Mean Shift",
+				"Nearest Neighbors"
+			],
+			[
+				"Principal Component Analysis (PCA)",
+				"Decision tree",
+				"Latent Semantic Analysis (LSA)",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Hidden Markov Models (HMM)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"Weighted Association rule mining",
+				"Naive Bayes"
+			],
+			[
+				"Linear Regression",
+				"Decision tree",
+				"OPTICS",
+				"Support Vector Machines (SVM)"
 			]
 		],
-		"correct_answers": [1, 1, 2]
+		"correct_answers": [
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			3,
+			3,
+			0,
+			2,
+			2,
+			0,
+			2,
+			2,
+			2,
+			3,
+			2,
+			1,
+			0,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2
+		]
 	},
 	{
-		"tutorial_id": 3,
+		"tutorial_id": null,
+		"topic": "Deep Learning",
 		"questions": [
-			"What is the primary function of generative AI models?",
-			"How do generative AI models differ from traditional models?",
-			"What is a real-world example of generative AI?"
+			"What is Deep Learning?",
+			"Which type of neural network is commonly used for image classification tasks?",
+			"What is the activation function commonly used in deep neural networks?",
+			"Which deep learning algorithm is commonly used for natural language processing tasks?",
+			"Which deep learning algorithm is used for generating new data based on existing data?",
+			"Which deep learning algorithm is used for learning hierarchical representations of data?",
+			"Which deep learning algorithm is used for sequence-to-sequence tasks, such as machine translation?",
+			"Which deep learning algorithm is used for anomaly detection in data?",
+			"Which deep learning algorithm is used for reinforcement learning tasks?",
+			"Which deep learning algorithm is used for handling sequential data with long-term dependencies?",
+			"Which deep learning algorithm is used for unsupervised pre-training of deep neural networks?",
+			"Which deep learning algorithm is used for learning continuous representations of words?",
+			"Which deep learning algorithm is used for object detection and localization tasks?",
+			"Which deep learning algorithm is used for time series forecasting tasks?",
+			"Which deep learning algorithm is used for generating new and realistic images?",
+			"Which deep learning algorithm is used for handling missing data in a dataset?",
+			"Which deep learning algorithm is used for recommendation systems?",
+			"Which deep learning algorithm is used for handling text classification tasks?",
+			"Which deep learning algorithm is used for generating captions for images?",
+			"Which deep learning algorithm is used for dimensionality reduction of data?",
+			"Which deep learning algorithm is used for sentiment analysis tasks?",
+			"Which deep learning algorithm is used for graph-based data analysis?",
+			"Which deep learning algorithm is used for automatic speech recognition?",
+			"Which deep learning algorithm is used for handling imbalanced classification tasks?",
+			"Which deep learning algorithm is used for time series anomaly detection?",
+			"Which deep learning algorithm is used for medical image analysis?",
+			"Which deep learning algorithm is used for facial recognition tasks?",
+			"Which deep learning algorithm is used for named entity recognition in natural language processing?",
+			"Which deep learning algorithm is used for speech synthesis (text-to-speech)?",
+			"Which deep learning algorithm is used for image segmentation tasks?"
 		],
 		"answers": [
 			[
-				"Solving mathematical problems",
-				"Creating new, original content",
-				"Data storage"
+				"A type of unsupervised learning",
+				"A type of reinforcement learning",
+				"A type of machine learning that uses neural networks with multiple layers",
+				"A type of supervised learning"
 			],
 			[
-				"They are easier to program",
-				"They generate new data",
-				"They are faster"
-			],
-			["Web browsing", "Content creation in media", "Spreadsheet calculations"]
-		],
-		"correct_answers": [1, 1, 1]
-	},
-	{
-		"tutorial_id": 4,
-		"questions": [
-			"What is the main focus of machine learning?",
-			"Which programming language is emphasized for machine learning in this tutorial?",
-			"What is an example of a machine learning application?"
-		],
-		"answers": [
-			[
-				"Data storage optimization",
-				"Creating intelligent robots",
-				"Automating decision-making"
-			],
-			["JavaScript", "C++", "Python"],
-			["Basic calculators", "Recommendation systems", "Manual data entry"]
-		],
-		"correct_answers": [2, 2, 1]
-	},
-	{
-		"tutorial_id": 5,
-		"questions": [
-			"What is deep learning a subset of?",
-			"How do neural networks relate to deep learning?",
-			"What might be a challenge in deep learning?"
-		],
-		"answers": [
-			["Data Science", "Software Engineering", "Artificial Intelligence"],
-			[
-				"Only used in data storage",
-				"Unrelated to deep learning",
-				"They are a key component"
-			],
-			["Algorithm complexity", "Both data and complexity", "Data availability"]
-		],
-		"correct_answers": [2, 2, 1]
-	},
-	{
-		"tutorial_id": 6,
-		"questions": [
-			"What is the focus of Natural Language Processing?",
-			"How does NLP benefit daily technology use?",
-			"What might be a use case of NLP?"
-		],
-		"answers": [
-			[
-				"Enhancing graphics",
-				"Optimizing databases",
-				"Understanding human language"
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Deep Belief Network (DBN)",
+				"Multilayer Perceptron (MLP)"
 			],
 			[
-				"Increasing storage capacity",
-				"Improving voice assistants",
-				"Speeding up computers"
-			],
-			["Physical automation", "Spreadsheet calculations", "Speech recognition"]
-		],
-		"correct_answers": [2, 1, 2]
-	},
-	{
-		"tutorial_id": 7,
-		"questions": [
-			"What does AI in computer vision aim to achieve?",
-			"How might AI in computer vision be used?",
-			"What is a challenge in AI for computer vision?"
-		],
-		"answers": [
-			["Storing images", "Rendering 3D models", "Interpreting visual data"],
-			["Data entry", "Audio processing", "Facial recognition systems"],
-			["Data overload", "Both privacy and overload", "Data privacy concerns"]
-		],
-		"correct_answers": [2, 2, 2]
-	},
-	{
-		"tutorial_id": 8,
-		"questions": [
-			"What is TensorFlow primarily used for?",
-			"Can TensorFlow be used by beginners in AI?",
-			"What is an advantage of using TensorFlow?"
-		],
-		"answers": [
-			[
-				"Web development",
-				"Database management",
-				"Building and training AI models"
+				"ReLU (Rectified Linear Unit)",
+				"Sigmoid",
+				"Tanh (Hyperbolic Tangent)",
+				"All of the above"
 			],
 			[
-				"No, it's for experts only",
-				"Only in gaming",
-				"Yes, it's beginner-friendly"
-			],
-			["Exclusive to experts", "Mainly its speed", "Wide community support"]
-		],
-		"correct_answers": [2, 2, 2]
-	},
-	{
-		"tutorial_id": 9,
-		"questions": [
-			"What is PyTorch commonly used for?",
-			"How does PyTorch facilitate AI development?",
-			"Is PyTorch suitable for deep learning projects?"
-		],
-		"answers": [
-			["Graphic design", "Web development", "AI development"],
-			[
-				"By optimizing storage",
-				"By automating content creation",
-				"By providing an intuitive interface"
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Generative Adversarial Network (GAN)"
 			],
 			[
-				"No, it's not suitable",
-				"Only for data analysis",
-				"Yes, especially for deep learning"
+				"Autoencoder",
+				"Deep Belief Network (DBN)",
+				"Generative Adversarial Network (GAN)",
+				"Variational Autoencoder (VAE)"
+			],
+			[
+				"Autoencoder",
+				"Restricted Boltzmann Machine (RBM)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Transformer",
+				"Deep Belief Network (DBN)",
+				"Variational Autoencoder (VAE)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Long Short-Term Memory (LSTM)"
+			],
+			[
+				"Autoencoder",
+				"Deep Belief Network (DBN)",
+				"Deep Q-Network (DQN)",
+				"Variational Autoencoder (VAE)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Deep Belief Network (DBN)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Restricted Boltzmann Machine (RBM)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Autoencoder"
+			],
+			[
+				"Convolutional Neural Network (CNN)",
+				"Word2Vec",
+				"Deep Belief Network (DBN)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Deep Belief Network (DBN)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Generative Adversarial Network (GAN)",
+				"Variational Autoencoder (VAE)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Variational Autoencoder (VAE)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Graph Convolutional Network (GCN)",
+				"Convolutional Neural Network (CNN)",
+				"Deep Belief Network (DBN)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Long Short-Term Memory (LSTM)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Multilayer Perceptron (MLP)"
+			],
+			[
+				"Recurrent Neural Network (RNN)",
+				"Convolutional Neural Network (CNN)",
+				"Long Short-Term Memory (LSTM)",
+				"Generative Adversarial Network (GAN)"
+			],
+			[
+				"Autoencoder",
+				"Convolutional Neural Network (CNN)",
+				"Restricted Boltzmann Machine (RBM)",
+				"U-Net"
 			]
 		],
-		"correct_answers": [2, 2, 2]
+		"correct_answers": [
+			2,
+			1,
+			0,
+			0,
+			2,
+			1,
+			1,
+			0,
+			2,
+			0,
+			0,
+			1,
+			1,
+			2,
+			2,
+			0,
+			3,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			3,
+			3,
+			1,
+			1,
+			0,
+			3,
+			3
+		]
 	},
 	{
-		"tutorial_id": 10,
+		"tutorial_id": null,
+		"topic": "Ensemble Learning",
 		"questions": [
-			"Why is ethics important in AI development?",
-			"What might be an ethical concern in AI?",
-			"How can responsible AI development be achieved?"
+			"Ensemble learning is a machine learning technique that involves:",
+			"Which of the following is an example of an ensemble learning algorithm?",
+			"Bagging is an ensemble technique that:",
+			"Boosting is an ensemble technique that:",
+			"AdaBoost is an example of:",
+			"Gradient Boosting is an ensemble technique that:",
+			"XGBoost is a popular implementation of:",
+			"Stacking is an ensemble technique that:",
+			"Which ensemble learning algorithm uses bootstrapping and feature sampling?",
+			"The purpose of using ensemble learning is to:",
+			"Bagging algorithms are effective in:",
+			"Which ensemble learning algorithm assigns weights to base models based on their performance?",
+			"Which ensemble learning algorithm uses a committee of experts to make predictions?",
+			"Which ensemble learning algorithm is prone to overfitting if the base models are too complex?",
+			"Which ensemble learning algorithm can handle both regression and classification tasks?",
+			"Ensemble learning algorithms are useful when:",
+			"Ensemble learning algorithms can improve model performance by:",
+			"Which ensemble learning algorithm can handle both numerical and categorical data without requiring one-hot encoding?",
+			"Which ensemble learning algorithm is less sensitive to outliers?",
+			"The majority voting method in ensemble learning refers to:",
+			"Which ensemble learning algorithm can handle missing values in the dataset?",
+			"Ensemble learning algorithms are useful for:",
+			"Which ensemble learning algorithm can handle non-linear relationships in the data?",
+			"Ensemble learning algorithms are effective in:",
+			"Which ensemble learning algorithm can handle both numerical and categorical features effectively?",
+			"Which ensemble learning algorithm is less susceptible to overfitting compared to others?",
+			"Which ensemble learning algorithm uses a weighted sum of predictions from base models?",
+			"Which ensemble learning algorithm can be used to identify important features in a dataset?",
+			"Ensemble learning algorithms can be computationally expensive when:",
+			"Which ensemble learning algorithm can be applied to both regression and classification tasks?"
 		],
 		"answers": [
 			[
-				"To enhance efficiency",
-				"Only to comply with laws",
-				"To ensure fair and unbiased systems"
+				"Training multiple models and combining their predictions",
+				"Training a single model on a large dataset",
+				"Training a model using a deep neural network",
+				"Training a model using reinforcement learning"
 			],
-			["Improving processing speed", "Reducing storage costs", "Data privacy"],
 			[
-				"By focusing only on technical aspects",
-				"By limiting AI applications",
-				"By diverse team inclusion"
+				"Decision Tree",
+				"Support Vector Machine (SVM)",
+				"Random Forest",
+				"K-Nearest Neighbors (KNN)"
+			],
+			[
+				"Combines predictions using a weighted average",
+				"Trains multiple models on different subsets of the data",
+				"Constructs an ensemble by iteratively updating weights",
+				"Uses a committee of experts to make predictions"
+			],
+			[
+				"Combines predictions using a weighted average",
+				"Trains multiple models on different subsets of the data",
+				"Constructs an ensemble by iteratively updating weights",
+				"Uses a committee of experts to make predictions"
+			],
+			[
+				"Bagging algorithm",
+				"Boosting algorithm",
+				"Randomized algorithm",
+				"Reinforcement learning algorithm"
+			],
+			[
+				"Combines predictions using a weighted average",
+				"Trains multiple models on different subsets of the data",
+				"Constructs an ensemble by iteratively updating weights",
+				"Uses a committee of experts to make predictions"
+			],
+			[
+				"Bagging algorithm",
+				"Boosting algorithm",
+				"Random Forest algorithm",
+				"K-Means clustering algorithm"
+			],
+			[
+				"Combines predictions using a weighted average",
+				"Trains multiple models on different subsets of the data",
+				"Constructs an ensemble by iteratively updating weights",
+				"Trains a meta-model to make predictions based on outputs of base models"
+			],
+			["Random Forest", "AdaBoost", "Gradient Boosting", "Stacking"],
+			[
+				"Reduce overfitting and improve generalization",
+				"Increase training time and complexity",
+				"Decrease the number of models required",
+				"Eliminate the need for labeled data"
+			],
+			[
+				"Handling imbalanced datasets",
+				"Sequential data prediction",
+				"Clustering high-dimensional data",
+				"Text classification tasks"
+			],
+			["AdaBoost", "Random Forest", "Gradient Boosting", "Stacking"],
+			["Bagging", "Boosting", "Random Forest", "Stacking"],
+			["Bagging", "Boosting", "Random Forest", "Stacking"],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			[
+				"The dataset is small and low-dimensional",
+				"The dataset is large and high-dimensional",
+				"The dataset is perfectly balanced",
+				"The dataset contains only categorical variables"
+			],
+			[
+				"Reducing bias",
+				"Reducing variance",
+				"Increasing interpretability",
+				"Increasing training time"
+			],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			["Bagging", "Boosting", "Random Forest", "Stacking"],
+			[
+				"Combining predictions by averaging their probabilities",
+				"Combining predictions by taking the mode of their classes",
+				"Combining predictions by multiplying their probabilities",
+				"Combining predictions by taking the median of their values"
+			],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			[
+				"Improving model stability",
+				"Increasing model complexity",
+				"Reducing feature importance",
+				"Eliminating the need for cross-validation"
+			],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			[
+				"Reducing model interpretability",
+				"Increasing model training time",
+				"Handling unbalanced datasets",
+				"Eliminating the need for hyperparameter tuning"
+			],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			["Bagging", "Boosting", "Random Forest", "Stacking"],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			["Bagging", "AdaBoost", "Gradient Boosting", "Stacking"],
+			[
+				"The dataset is small",
+				"The base models are simple",
+				"The ensemble size is small",
+				"The dataset is large"
+			],
+			["Bagging", "AdaBoost", "Random Forest", "Stacking"]
+		],
+		"correct_answers": [
+			0,
+			2,
+			1,
+			2,
+			1,
+			2,
+			1,
+			3,
+			0,
+			0,
+			0,
+			0,
+			2,
+			1,
+			0,
+			1,
+			2,
+			2,
+			2,
+			1,
+			0,
+			0,
+			2,
+			2,
+			0,
+			2,
+			1,
+			2,
+			3,
+			2
+		]
+	},
+	{
+		"tutorial_id": null,
+		"topic": "Dimensionality Reduction",
+		"questions": [
+			"Dimensionality reduction techniques are used to:",
+			"Principal Component Analysis (PCA) is a dimensionality reduction technique that:",
+			"PCA finds the directions of maximum variance in the data by:",
+			"Linear Discriminant Analysis (LDA) is a dimensionality reduction technique that:",
+			"Which dimensionality reduction technique is suitable for supervised learning tasks?",
+			"t-SNE (t-distributed Stochastic Neighbor Embedding) is a dimensionality reduction technique that:",
+			"Non-negative Matrix Factorization (NMF) is a dimensionality reduction technique that:",
+			"Independent Component Analysis (ICA) is a dimensionality reduction technique that:",
+			"Manifold Learning is a dimensionality reduction technique that:",
+			"Which dimensionality reduction technique can handle both linear and non-linear relationships in the data?",
+			"Which dimensionality reduction technique is based on maximizing the mutual information between the transformed features and the target variable?",
+			"Which dimensionality reduction technique is based on preserving the pairwise distances between data points?",
+			"Which dimensionality reduction technique is commonly used in image and signal processing?",
+			"Which dimensionality reduction technique can handle both numerical and categorical features?",
+			"Which dimensionality reduction technique is computationally expensive and suitable for small to medium-sized datasets?",
+			"Which dimensionality reduction technique can be used for feature extraction and denoising of data?",
+			"Which dimensionality reduction technique is based on the assumption that the data lies on a low-dimensional manifold embedded in a high-dimensional space?",
+			"Which dimensionality reduction technique is suitable for outlier detection and novelty detection?",
+			"Which dimensionality reduction technique is based on maximizing the variance in the transformed features?",
+			"Which dimensionality reduction technique is suitable for feature selection based on the statistical dependence between features and the target variable?",
+			"Which dimensionality reduction technique can be used for visualization of high-dimensional data?",
+			"Which dimensionality reduction technique is based on finding the optimal low-dimensional representation that minimizes the reconstruction error of the original data?",
+			"Which dimensionality reduction technique is suitable for text mining and natural language processing tasks?",
+			"Which dimensionality reduction technique is based on linear projections of the data onto a lower-dimensional subspace?",
+			"Which dimensionality reduction technique can handle categorical variables and preserve the associations between them?",
+			"Which dimensionality reduction technique is suitable for clustering analysis and outlier detection?",
+			"Which dimensionality reduction technique is based on maximizing the Fisher's discriminant ratio between classes?",
+			"Which dimensionality reduction technique is suitable for exploring the relationships between multiple variables?",
+			"Which dimensionality reduction technique is based on clustering similar data points into groups and assigning representative prototypes?",
+			"Which dimensionality reduction technique is based on optimizing a non-linear manifold that preserves the local neighborhood relationships between data points?"
+		],
+		"answers": [
+			[
+				"Increase the number of features in a dataset",
+				"Reduce the number of features in a dataset",
+				"Scale the features in a dataset",
+				"Balance the class distribution in a dataset"
+			],
+			[
+				"Maximizes the variance in the original features",
+				"Minimizes the correlation between features",
+				"Creates new features that are linear combinations of the original features",
+				"Normalizes the features in a dataset"
+			],
+			[
+				"Singular Value Decomposition (SVD)",
+				"Eigendecomposition",
+				"Correlation analysis",
+				"T-distributed Stochastic Neighbor Embedding (t-SNE)"
+			],
+			[
+				"Maximizes the variance in the original features",
+				"Minimizes the correlation between features",
+				"Creates new features that are linear combinations of the original features",
+				"Maximizes the separability between different classes"
+			],
+			["PCA", "LDA", "t-SNE", "Autoencoder"],
+			[
+				"Preserves the global structure of the data",
+				"Reduces the dimensionality based on class labels",
+				"Focuses on preserving local similarities between data points",
+				"Performs feature extraction using neural networks"
+			],
+			[
+				"Finds orthogonal features that capture the most variance",
+				"Creates non-linear combinations of the original features",
+				"Performs feature extraction using neural networks",
+				"Decomposes a non-negative matrix into two non-negative matrices"
+			],
+			[
+				"Finds orthogonal features that capture the most variance",
+				"Creates non-linear combinations of the original features",
+				"Performs feature extraction using neural networks",
+				"Separates a mixture of signals into statistically independent components"
+			],
+			[
+				"Creates non-linear combinations of the original features",
+				"Decomposes a non-negative matrix into two non-negative matrices",
+				"Finds orthogonal features that capture the most variance",
+				"Preserves the intrinsic structure of the data in a lower-dimensional space"
+			],
+			["PCA", "LDA", "t-SNE", "NMF"],
+			["PCA", "LDA", "t-SNE", "Mutual Information-based Feature Selection"],
+			["PCA", "LDA", "t-SNE", "NMF"],
+			["PCA", "LDA", "t-SNE", "ICA"],
+			["PCA", "LDA", "t-SNE", "Multiple Correspondence Analysis"],
+			["PCA", "LDA", "t-SNE", "NMF"],
+			["PCA", "LDA", "t-SNE", "Autoencoder"],
+			["PCA", "LDA", "t-SNE", "Manifold Learning"],
+			["PCA", "LDA", "t-SNE", "Isolation Forest"],
+			["PCA", "LDA", "t-SNE", "ICA"],
+			["PCA", "LDA", "t-SNE", "Mutual Information-based Feature Selection"],
+			["PCA", "LDA", "t-SNE", "NMF"],
+			["PCA", "LDA", "t-SNE", "Autoencoder"],
+			["PCA", "LDA", "t-SNE", "Latent Semantic Analysis"],
+			["PCA", "LDA", "t-SNE", "ICA"],
+			["PCA", "LDA", "t-SNE", "Multiple Correspondence Analysis"],
+			["PCA", "LDA", "t-SNE", "Isomap"],
+			["PCA", "LDA", "t-SNE", "Canonical Correlation Analysis"],
+			["PCA", "LDA", "t-SNE", "Factor Analysis"],
+			["PCA", "LDA", "t-SNE", "K-Means Clustering"],
+			["PCA", "LDA", "t-SNE", "Isomap"]
+		],
+		"correct_answers": [
+			1,
+			2,
+			1,
+			3,
+			1,
+			2,
+			3,
+			3,
+			3,
+			2,
+			1,
+			2,
+			3,
+			3,
+			2,
+			3,
+			3,
+			3,
+			0,
+			3,
+			2,
+			3,
+			3,
+			0,
+			3,
+			3,
+			1,
+			3,
+			3,
+			3
+		]
+	},
+	{
+		"tutorial_id": null,
+		"topic": "Clustering",
+		"questions": [
+			"Which of the following is a goal of clustering algorithms?",
+			"Which clustering algorithm is based on the concept of centroids?",
+			"Which clustering algorithm does not require specifying the number of clusters in advance?",
+			"Which clustering algorithm is sensitive to the order of the data points?",
+			"Which clustering algorithm is based on a density-based approach?",
+			"Which clustering algorithm uses a hierarchical approach to create clusters?",
+			"Which clustering algorithm is based on the concept of medoids?",
+			"Which clustering algorithm is capable of detecting outliers as noise points?",
+			"Which clustering algorithm is suitable for non-linearly separable data?",
+			"Which clustering algorithm assigns data points to the nearest cluster centroid?",
+			"Which clustering algorithm is computationally efficient for large datasets?",
+			"Which clustering algorithm can handle clusters of varying shapes and sizes?",
+			"Which clustering algorithm does not require the assumption of equal-sized clusters?",
+			"Which clustering algorithm is based on the concept of nearest neighbors?",
+			"Which clustering algorithm is sensitive to the initial placement of cluster centroids?",
+			"Which clustering algorithm is based on the concept of minimizing the within-cluster variance?",
+			"Which clustering algorithm is suitable for high-dimensional data?",
+			"Which clustering algorithm is capable of identifying dense regions in the data?",
+			"Which clustering algorithm is based on the concept of similarity or distance between data points?",
+			"Which clustering algorithm can handle categorical data?",
+			"Which clustering algorithm is based on the concept of density-reachable points?",
+			"Which clustering algorithm is capable of handling noise and outliers effectively?",
+			"Which clustering algorithm is suitable for time-series data?",
+			"Which clustering algorithm is based on the concept of merging the closest clusters iteratively?",
+			"Which clustering algorithm is suitable for large datasets with an unknown number of clusters?",
+			"Which clustering algorithm is based on the concept of fuzzy sets and membership degrees?",
+			"Which clustering algorithm can be used to identify overlapping clusters in the data?",
+			"Which clustering algorithm is based on the concept of minimizing the sum of squared errors within each cluster?",
+			"Which clustering algorithm is suitable for text mining and document clustering?",
+			"Which clustering algorithm is suitable for image segmentation and object detection?"
+		],
+		"answers": [
+			[
+				"Classification",
+				"Regression",
+				"Dimensionality reduction",
+				"Grouping similar data points together"
+			],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "K-Medoids"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "K-Nearest Neighbors"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "K-Modes"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "K-Shape"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			["K-Means", "DBSCAN", "Fuzzy C-Means", "Mean-Shift"],
+			[
+				"K-Means",
+				"DBSCAN",
+				"Agglomerative",
+				"Density-Based Overlapping Clustering"
+			],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"],
+			[
+				"K-Means",
+				"DBSCAN",
+				"Agglomerative",
+				"Latent Dirichlet Allocation (LDA)"
+			],
+			["K-Means", "DBSCAN", "Agglomerative", "Mean-Shift"]
+		],
+		"correct_answers": [
+			3,
+			0,
+			1,
+			3,
+			1,
+			2,
+			3,
+			1,
+			3,
+			0,
+			1,
+			1,
+			3,
+			3,
+			0,
+			0,
+			0,
+			1,
+			0,
+			3,
+			1,
+			1,
+			3,
+			2,
+			3,
+			2,
+			3,
+			0,
+			3,
+			3
+		]
+	},
+	{
+		"tutorial_id": null,
+		"topic": "Decision Tree",
+		"questions": [
+			"What is a decision tree algorithm used for?",
+			"Which algorithm is commonly used to construct decision trees?",
+			"Which attribute selection measure is used in the ID3 algorithm?",
+			"What is the goal of a decision tree algorithm during training?",
+			"Which algorithm can handle both categorical and numerical features in decision trees?",
+			"Which decision tree algorithm supports multi-class classification?",
+			"Which algorithm is an extension of the C4.5 algorithm?",
+			"Which decision tree algorithm is based on the concept of binary splitting?",
+			"Which algorithm can handle missing values in decision trees?",
+			"Which decision tree algorithm can handle both classification and regression tasks?",
+			"Which algorithm is used to prune decision trees to avoid overfitting?",
+			"Which attribute selection measure is used in the C4.5 algorithm?",
+			"Which decision tree algorithm can handle continuous and discrete features without discretization?",
+			"Which algorithm uses a cost-complexity pruning technique to create smaller decision trees?",
+			"Which decision tree algorithm is an ensemble method that combines multiple decision trees?",
+			"Which algorithm uses a voting mechanism to make predictions in Random Forest?",
+			"Which algorithm is used to handle imbalanced class distributions in decision trees?",
+			"Which decision tree algorithm is based on the concept of boosting?",
+			"Which algorithm assigns weights to data points during the training process in AdaBoost?",
+			"Which decision tree algorithm is based on the concept of feature bagging?",
+			"Which algorithm is used to reduce overfitting in decision trees by randomly selecting a subset of features?",
+			"Which decision tree algorithm uses the concept of rule-based learning?",
+			"Which algorithm is used to handle class imbalance by adjusting the class weights in decision trees?",
+			"Which decision tree algorithm is suitable for handling missing attribute values using surrogate splits?",
+			"Which algorithm uses the concept of multi-output decision trees for multi-label classification?",
+			"Which decision tree algorithm is suitable for handling skewed class distributions using stratified sampling?",
+			"Which algorithm uses the concept of local search in decision trees to improve accuracy?",
+			"Which decision tree algorithm is suitable for handling continuous-valued attributes by creating binary splits?",
+			"Which algorithm is used to handle time-series data using decision trees?",
+			"Which decision tree algorithm is based on the concept of reducing variance by combining predictions from multiple trees?"
+		],
+		"answers": [
+			[
+				"Classification",
+				"Regression",
+				"Clustering",
+				"Dimensionality reduction"
+			],
+			["ID3", "K-Means", "DBSCAN", "Linear Regression"],
+			["Gini Index", "Entropy", "Information Gain", "Chi-square"],
+			[
+				"To maximize accuracy",
+				"To minimize error",
+				"To minimize impurity",
+				"To maximize precision"
+			],
+			["CART", "ID3", "C4.5", "Random Forest"],
+			["ID3", "C4.5", "CART", "AdaBoost"],
+			["ID3", "CART", "C5.0", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["Gini Index", "Entropy", "Information Gain", "Chi-square"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			["ID3", "C4.5", "CART", "Random Forest"],
+			[
+				"Weighted voting",
+				"Majority voting",
+				"Weighted averaging",
+				"Median voting"
+			],
+			[
+				"SMOTE",
+				"ADASYN",
+				"Synthetic Minority Over-sampling Technique",
+				"Random Over-sampling"
+			],
+			["ID3", "C4.5", "CART", "AdaBoost"],
+			[
+				"Uniform weights",
+				"Decreasing weights",
+				"Increasing weights",
+				"Adaptive weights"
+			],
+			["ID3", "C4.5", "CART", "Bagging"],
+			[
+				"Random subspace method",
+				"Random feature selection",
+				"Random attribute bagging",
+				"Random feature bagging"
+			],
+			["ID3", "C4.5", "RIPPER", "CART"],
+			[
+				"Class-weighted decision trees",
+				"Class-balanced decision trees",
+				"Class-imbalance adjustment trees",
+				"Class-adjusted decision trees"
+			],
+			["ID3", "C4.5", "CART", "M5"],
+			["ID3", "C4.5", "CART", "M4.5"],
+			["ID3", "C4.5", "CART", "Stratified decision trees"],
+			[
+				"Local Search Trees (LST)",
+				"Iterative Local Search Trees (ILST)",
+				"Best-First Search Trees (BFST)",
+				"Greedy Search Trees (GST)"
+			],
+			["ID3", "C4.5", "CART", "CVFDT"],
+			[
+				"Time-Series Decision Trees (TSDT)",
+				"Sequential Decision Trees (SDT)",
+				"Temporal Decision Trees (TDT)",
+				"Time-Dependent Decision Trees (TDDT)"
+			],
+			["ID3", "C4.5", "CART", "Random Forest"]
+		],
+		"correct_answers": [
+			0,
+			0,
+			2,
+			2,
+			0,
+			1,
+			2,
+			2,
+			1,
+			2,
+			2,
+			1,
+			2,
+			2,
+			3,
+			1,
+			2,
+			3,
+			3,
+			3,
+			0,
+			2,
+			0,
+			3,
+			3,
+			3,
+			1,
+			2,
+			2,
+			3
+		]
+	},
+	{
+		"tutorial_id": null,
+		"topic": "Bayesian",
+		"questions": [
+			"What is the fundamental principle behind Bayesian algorithms?",
+			"Which Bayesian algorithm is commonly used for classification tasks?",
+			"Which assumption does the Naive Bayes algorithm make regarding the features?",
+			"Which probability distribution is often used for modeling continuous variables in Bayesian algorithms?",
+			"Which Bayesian algorithm is commonly used for modeling dependencies among variables?",
+			"In Bayesian networks, what do directed edges represent?",
+			"Which algorithm is used to estimate the parameters of a Bayesian network?",
+			"Which Bayesian algorithm is used for solving optimization problems?",
+			"Which Bayesian algorithm is used for modeling linear relationships between variables?",
+			"In Bayesian Linear Regression, what is the role of the prior distribution?",
+			"Which algorithm is used for updating beliefs in Bayesian inference?",
+			"In Bayesian inference, what does the posterior distribution represent?",
+			"Which algorithm is used for approximating intractable posterior distributions?",
+			"Which Bayesian algorithm is used for modeling temporal dependencies in sequential data?",
+			"Which Bayesian algorithm is used for clustering data?",
+			"Which algorithm is used for estimating the parameters of a Gaussian Mixture Model?",
+			"In Bayesian decision theory, what is the role of the loss function?",
+			"Which Bayesian algorithm is used for modeling sparse data?",
+			"Which algorithm is used for estimating the hyperparameters of a Bayesian model?",
+			"In Bayesian model averaging, how are different models combined?",
+			"Which algorithm is used for estimating the parameters of a Bayesian neural network?",
+			"In Bayesian model selection, what is the purpose of model comparison?",
+			"Which algorithm is used for estimating the parameters of a Bayesian sparse linear regression model?",
+			"Which Bayesian algorithm is used for modeling uncertain or imprecise knowledge?",
+			"Which algorithm is used for estimating the parameters of a Bayesian non-parametric model?",
+			"In Bayesian model averaging, what is the benefit of combining multiple models?",
+			"Which Bayesian algorithm is used for modeling relationships between variables with uncertainty in the graph structure?",
+			"Which algorithm is used for estimating the parameters of a Bayesian support vector machine?",
+			"In Bayesian optimization, what is the objective of the acquisition function?",
+			"Which Bayesian algorithm is used for modeling relationships between variables in the presence of missing data?"
+		],
+		"answers": [
+			[
+				"Minimizing error",
+				"Maximizing accuracy",
+				"Incorporating prior knowledge",
+				"Optimizing computational complexity"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Bayesian Linear Regression",
+				"Bayesian Optimization"
+			],
+			[
+				"They are conditionally dependent",
+				"They are conditionally independent",
+				"They are normally distributed",
+				"They are uniformly distributed"
+			],
+			[
+				"Bernoulli distribution",
+				"Gaussian distribution",
+				"Poisson distribution",
+				"Exponential distribution"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Bayesian Linear Regression",
+				"Bayesian Optimization"
+			],
+			[
+				"Dependency between variables",
+				"Independence between variables",
+				"Conditional probability tables",
+				"Prior probabilities"
+			],
+			[
+				"Maximum Likelihood Estimation (MLE)",
+				"Expectation-Maximization (EM)",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Gradient Descent"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Bayesian Linear Regression",
+				"Bayesian Optimization"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Bayesian Linear Regression",
+				"Bayesian Optimization"
+			],
+			[
+				"It represents the uncertainty in the dependent variable",
+				"It represents the uncertainty in the independent variables",
+				"It represents the prior knowledge about the relationship between variables",
+				"It represents the noise in the data"
+			],
+			[
+				"Forward-Backward Algorithm",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Expectation-Maximization (EM)",
+				"Bayes' Theorem"
+			],
+			[
+				"The prior distribution",
+				"The likelihood function",
+				"The joint distribution",
+				"The updated belief after incorporating new evidence"
+			],
+			[
+				"Expectation-Maximization (EM)",
+				"Gibbs Sampling",
+				"Variational Inference",
+				"Gradient Descent"
+			],
+			[
+				"Hidden Markov Models (HMMs)",
+				"Gaussian Processes",
+				"Dirichlet Processes",
+				"Bayesian Networks"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Gaussian Mixture Models (GMMs)",
+				"Bayesian Optimization"
+			],
+			[
+				"Expectation-Maximization (EM)",
+				"Gibbs Sampling",
+				"Markov Chain Monte Carlo (MCMC)",
+				"K-Means Clustering"
+			],
+			[
+				"To measure the accuracy of predictions",
+				"To measure the uncertainty in the data",
+				"To measure the cost of different decisions",
+				"To measure the complexity of the model"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Bayesian Linear Regression with Lasso regularization",
+				"Bayesian Optimization"
+			],
+			[
+				"Maximum Likelihood Estimation (MLE)",
+				"Expectation-Maximization (EM)",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Grid Search"
+			],
+			[
+				"By taking the average of their predictions",
+				"By weighting their predictions based on their posterior probabilities",
+				"By selecting the model with the highest posterior probability",
+				"By using the model with the highest likelihood"
+			],
+			[
+				"Variational Inference",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Expectation-Maximization (EM)",
+				"Backpropagation"
+			],
+			[
+				"To select the model with the highest likelihood",
+				"To select the model with the highest prior probability",
+				"To select the model with the highest posterior probability",
+				"To select the model with the lowest complexity"
+			],
+			[
+				"L1 regularization",
+				"L2 regularization",
+				"Lasso regularization",
+				"Ridge regularization"
+			],
+			[
+				"Fuzzy Bayesian Networks",
+				"Probabilistic Graphical Models",
+				"Bayesian Linear Regression",
+				"Bayesian Optimization"
+			],
+			[
+				"Variational Inference",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Expectation-Maximization (EM)",
+				"Gaussian Processes"
+			],
+			[
+				"Increased accuracy",
+				"Reduced computational complexity",
+				"Improved interpretability",
+				"Enhanced model generalization"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Markov Random Fields (MRFs)",
+				"Bayesian Optimization"
+			],
+			[
+				"Variational Inference",
+				"Markov Chain Monte Carlo (MCMC)",
+				"Expectation-Maximization (EM)",
+				"Sequential Minimal Optimization (SMO)"
+			],
+			[
+				"To maximize the posterior probability",
+				"To minimize the expected improvement",
+				"To minimize the computational complexity",
+				"To maximize the exploration-exploitation trade-off"
+			],
+			[
+				"Naive Bayes",
+				"Bayesian Networks",
+				"Expectation-Maximization (EM)",
+				"Bayesian Linear Regression"
 			]
 		],
-		"correct_answers": [2, 2, 2]
+		"correct_answers": [
+			2,
+			0,
+			1,
+			1,
+			1,
+			0,
+			2,
+			3,
+			2,
+			2,
+			3,
+			1,
+			2,
+			2,
+			2,
+			0,
+			2,
+			2,
+			2,
+			1,
+			0,
+			2,
+			2,
+			0,
+			1,
+			3,
+			2,
+			1,
+			3,
+			2
+		]
 	},
 	{
-		"tutorial_id": 11,
+		"tutorial_id": null,
+		"topic": "Neural Network",
 		"questions": [
-			"What is the focus of data wrangling in AI?",
-			"Which tool is commonly used for data preprocessing in AI?",
-			"Why is data preprocessing crucial in AI?"
+			"Which activation function is commonly used in the hidden layers of a neural network to introduce non-linearity?",
+			"What is the purpose of the activation function in a neural network?",
+			"Which neural network architecture is used for handling sequential data, such as natural language processing or time series analysis?",
+			"Which neural network architecture is commonly used for image classification tasks?",
+			"Which algorithm is used for updating the weights in a neural network during the training process?",
+			"What is the purpose of the bias term in a neural network?",
+			"Which algorithm is used for updating the weights in a neural network with a single training example at a time?",
+			"Which technique is used for preventing overfitting in a neural network by randomly dropping out neurons during training?",
+			"What is the purpose of the loss function in a neural network?",
+			"Which algorithm is used for updating the weights in a neural network by considering the previous weight update?",
+			"Which neural network architecture is used for handling both sequential and spatial data, such as video processing or 3D image analysis?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of steepest descent?",
+			"What is the purpose of the learning rate in a neural network?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient?",
+			"Which neural network architecture is used for handling variable-length sequential data, such as text generation or machine translation?",
+			"Which technique is used for normalizing the input data in a neural network to ensure similar scales across different features?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the magnitude of the previous weight update?",
+			"Which neural network architecture is used for handling both sequential and hierarchical data, such as natural language parsing or speech recognition?",
+			"Which technique is used for preventing overfitting in a neural network by adding a penalty term to the loss function based on the weights?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the Hessian matrix?",
+			"Which neural network architecture is used for handling both sequential and non-sequential data, such as sentiment analysis or document classification?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the momentum term?",
+			"What is the purpose of the momentum term in a neural network?",
+			"Which technique is used for preventing overfitting in a neural network by randomly selecting a subset of the training examples for each iteration?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and adapting the learning rate for each weight?",
+			"What is the purpose of the early stopping technique in a neural network?",
+			"Which neural network architecture is used for handling both sequential and spatial data, such as video processing or 3D image analysis?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the magnitude of the previous weight update, with adaptive learning rates for each weight?",
+			"What is the purpose of the dropout technique in a neural network?",
+			"Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the second derivative (Hessian matrix)?"
 		],
 		"answers": [
 			[
-				"Creating data visualizations",
-				"Preparing data for analysis",
-				"Optimizing algorithms"
+				"Sigmoid",
+				"ReLU (Rectified Linear Unit)",
+				"Tanh (Hyperbolic Tangent)",
+				"Linear"
 			],
-			["Photoshop", "MS Word", "Pandas"],
 			[
-				"To make data look attractive",
-				"To reduce storage space",
-				"To ensure data quality"
+				"It determines the number of layers in the network",
+				"It normalizes the input data",
+				"It introduces non-linearity in the network",
+				"It controls the learning rate of the network"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Radial Basis Function Network (RBFN)"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Radial Basis Function Network (RBFN)"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Stochastic Gradient Descent (SGD)",
+				"All of the above"
+			],
+			[
+				"It controls the learning rate of the network",
+				"It adds flexibility to the decision boundaries of the network",
+				"It introduces non-linearity in the network",
+				"It allows shifting the activation function"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Stochastic Gradient Descent (SGD)",
+				"Mini-batch Gradient Descent"
+			],
+			[
+				"Dropout",
+				"Batch Normalization",
+				"L1 Regularization",
+				"L2 Regularization"
+			],
+			[
+				"It measures the accuracy of predictions",
+				"It measures the complexity of the model",
+				"It quantifies the difference between predicted and actual values",
+				"It controls the learning rate of the network"
+			],
+			[
+				"Backpropagation through time (BPTT)",
+				"Resilient Propagation (RProp)",
+				"Levenberg-Marquardt Algorithm",
+				"Quickprop"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Long Short-Term Memory (LSTM) Network"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Conjugate Gradient",
+				"Newton's Method"
+			],
+			[
+				"It controls the speed of convergence during training",
+				"It determines the number of hidden layers in the network",
+				"It introduces non-linearity in the network",
+				"It allows shifting the activation function"
+			],
+			["Backpropagation", "Gradient Descent", "Adam Optimization", "Adaboost"],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Transformer Network"
+			],
+			[
+				"Dropout",
+				"Batch Normalization",
+				"L1 Regularization",
+				"L2 Regularization"
+			],
+			[
+				"Backpropagation through time (BPTT)",
+				"Resilient Propagation (RProp)",
+				"Levenberg-Marquardt Algorithm",
+				"Quickprop"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recursive Neural Network (ReNN)",
+				"Radial Basis Function Network (RBFN)"
+			],
+			[
+				"Dropout",
+				"Batch Normalization",
+				"L1 Regularization",
+				"L2 Regularization"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Conjugate Gradient",
+				"Newton's Method"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Transformer Network"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Stochastic Gradient Descent (SGD)",
+				"Momentum-based Gradient Descent"
+			],
+			[
+				"It controls the speed of convergence during training",
+				"It introduces non-linearity in the network",
+				"It allows shifting the activation function",
+				"It helps accelerate the convergence and overcome local minima"
+			],
+			[
+				"Dropout",
+				"Batch Normalization",
+				"L1 Regularization",
+				"Mini-batch Gradient Descent"
+			],
+			["Backpropagation", "Gradient Descent", "Adam Optimization", "Adaboost"],
+			[
+				"It prevents the network from overfitting the training data",
+				"It speeds up the convergence of the network",
+				"It allows shifting the activation function",
+				"It controls the learning rate of the network"
+			],
+			[
+				"Feedforward Neural Network (FNN)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Long Short-Term Memory (LSTM) Network"
+			],
+			[
+				"Backpropagation through time (BPTT)",
+				"Resilient Propagation (RProp)",
+				"Levenberg-Marquardt Algorithm",
+				"Adam Optimization"
+			],
+			[
+				"It prevents the network from overfitting the training data",
+				"It speeds up the convergence of the network",
+				"It allows shifting the activation function",
+				"It introduces non-linearity in the network"
+			],
+			[
+				"Backpropagation",
+				"Gradient Descent",
+				"Conjugate Gradient",
+				"Newton's Method"
 			]
 		],
-		"correct_answers": [1, 2, 2]
+		"correct_answers": [
+			1,
+			2,
+			2,
+			1,
+			1,
+			3,
+			2,
+			0,
+			2,
+			1,
+			3,
+			2,
+			0,
+			1,
+			3,
+			1,
+			3,
+			2,
+			3,
+			3,
+			0,
+			3,
+			3,
+			3,
+			2,
+			0,
+			3,
+			3,
+			0,
+			3
+		]
 	},
 	{
-		"tutorial_id": 12,
+		"tutorial_id": null,
+		"topic": "Reinforcement Learning",
 		"questions": [
-			"How does cloud computing benefit AI?",
-			"What might be a feature of cloud-based AI services?",
-			"Is cloud computing necessary for all AI applications?"
+			"What is reinforcement learning?",
+			"Which component is essential in reinforcement learning?",
+			"What is the objective of a reinforcement learning agent?",
+			"Which algorithm is the foundation of most reinforcement learning methods?",
+			"In reinforcement learning, what does the term 'exploitation' refer to?",
+			"What is the role of the reward function in reinforcement learning?",
+			"Which algorithm uses a value function to estimate the expected future rewards?",
+			"Which reinforcement learning algorithm uses a model to simulate the environment and learn from it?",
+			"Which algorithm combines both value-based and policy-based methods in reinforcement learning?",
+			"Which algorithm is used when the environment's dynamics are unknown in reinforcement learning?",
+			"Which algorithm is used to estimate the optimal value function directly without explicitly learning the policy?",
+			"Which reinforcement learning algorithm uses a neural network as a function approximator?",
+			"Which algorithm is used when the action space is continuous in reinforcement learning?",
+			"Which algorithm uses a policy network to directly approximate the policy in reinforcement learning?",
+			"Which algorithm learns by interacting with the environment and adjusting its policy based on observed rewards?",
+			"Which reinforcement learning algorithm is suitable for problems with high-dimensional or continuous action spaces?",
+			"Which algorithm learns by simulating complete episodes and updating the value function based on the total rewards obtained?",
+			"Which algorithm updates the value function based on the difference between the estimated value and the value of the next state in reinforcement learning?",
+			"Which algorithm is used when the environment is fully observable in reinforcement learning?",
+			"Which algorithm combines value-based methods and policy-based methods by using a value function and a policy function in reinforcement learning?",
+			"Which algorithm is used when the reward function is not known in reinforcement learning?",
+			"Which algorithm updates the policy by directly optimizing the expected cumulative reward in reinforcement learning?",
+			"Which algorithm uses a combination of value iteration and policy iteration in reinforcement learning?",
+			"Which reinforcement learning algorithm learns by interacting with multiple parallel instances of the environment?",
+			"Which algorithm is used when the environment is partially observable in reinforcement learning?",
+			"Which algorithm combines model-based methods and model-free methods in reinforcement learning?",
+			"Which algorithm is used for continuous control tasks in reinforcement learning?",
+			"Which algorithm learns by updating the action-value function based on the observed rewards and the estimated value of the next state-action pair?",
+			"Which algorithm is used when the state space is continuous in reinforcement learning?",
+			"Which algorithm is used when the environment has delayed or sparse rewards in reinforcement learning?"
 		],
 		"answers": [
 			[
-				"Improving computational power",
-				"Both storage and computation",
-				"Enhancing storage capacity"
+				"A type of supervised learning",
+				"A type of unsupervised learning",
+				"A type of semi-supervised learning",
+				"A type of learning where an agent learns to interact with an environment to maximize rewards"
 			],
-			["Physical hardware", "Offline processing", "Scalability"],
-			["No, not always", "Only in data analysis", "Yes, always necessary"]
-		],
-		"correct_answers": [1, 2, 0]
-	},
-	{
-		"tutorial_id": 13,
-		"questions": [
-			"What role does big data play in AI?",
-			"How can big data improve AI applications?",
-			"What is a challenge when using big data in AI?"
-		],
-		"answers": [
+			["Agent", "Environment", "Rewards", "All of the above"],
 			[
-				"Improving UI design",
-				"Providing large datasets for analysis",
-				"Data storage"
+				"To minimize errors",
+				"To maximize accuracy",
+				"To maximize rewards",
+				"To minimize computational resources"
+			],
+			["Q-learning", "Deep Learning", "K-means clustering", "Random Forest"],
+			[
+				"Trying new actions to gain more knowledge",
+				"Maximizing immediate rewards based on current knowledge",
+				"Balancing exploration and exploitation for optimal results",
+				"Trying random actions to avoid bias"
 			],
 			[
-				"Simplifying algorithms",
-				"Reducing computational needs",
-				"Enhancing accuracy of predictions"
+				"It defines the actions available to the agent",
+				"It provides feedback to the agent based on its actions",
+				"It specifies the termination condition of the learning process",
+				"It determines the size of the agent's memory"
 			],
 			[
-				"Finding enough data",
-				"Algorithm simplification",
-				"Ensuring data privacy"
+				"Q-learning",
+				"Policy gradient",
+				"Monte Carlo methods",
+				"Temporal Difference (TD) learning"
+			],
+			[
+				"Actor-Critic",
+				"Model-Free learning",
+				"Model-Based learning",
+				"Q-learning"
+			],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Monte Carlo methods",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Model-Free learning",
+				"Model-Based learning",
+				"Q-learning",
+				"Deep Learning"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Temporal Difference (TD) learning",
+				"Monte Carlo methods"
+			],
+			[
+				"Q-learning",
+				"Deep Q-Network (DQN)",
+				"Policy gradient",
+				"Monte Carlo methods"
+			],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Deep Deterministic Policy Gradient (DDPG)",
+				"Temporal Difference (TD) learning"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Monte Carlo methods",
+				"Temporal Difference (TD) learning"
+			],
+			["Q-learning", "Deep Learning", "Policy gradient", "Monte Carlo methods"],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Monte Carlo methods",
+				"Deep Deterministic Policy Gradient (DDPG)"
+			],
+			[
+				"Q-learning",
+				"Monte Carlo methods",
+				"Deep Q-Network (DQN)",
+				"Temporal Difference (TD) learning"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Temporal Difference (TD) learning",
+				"Actor-Critic"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Partially Observable Markov Decision Process (POMDP)",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Monte Carlo methods",
+				"Temporal Difference (TD) learning"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Inverse Reinforcement Learning (IRL)",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Temporal Difference (TD) learning",
+				"Monte Carlo methods"
+			],
+			["Q-learning", "Value iteration", "Policy iteration", "Actor-Critic"],
+			[
+				"Q-learning",
+				"Asynchronous Advantage Actor-Critic (A3C)",
+				"Deep Q-Network (DQN)",
+				"Monte Carlo methods"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Partially Observable Markov Decision Process (POMDP)",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Q-learning",
+				"Model-Based Reinforcement Learning (MBRL)",
+				"Deep Q-Network (DQN)",
+				"Policy gradient"
+			],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Monte Carlo methods",
+				"Proximal Policy Optimization (PPO)"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Temporal Difference (TD) learning",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Q-learning",
+				"Actor-Critic",
+				"Monte Carlo methods",
+				"Deep Q-Network (DQN)"
+			],
+			[
+				"Q-learning",
+				"Policy gradient",
+				"Monte Carlo methods",
+				"Temporal Difference (TD) learning"
 			]
 		],
-		"correct_answers": [1, 2, 2]
+		"correct_answers": [
+			3,
+			3,
+			2,
+			0,
+			1,
+			1,
+			3,
+			2,
+			1,
+			0,
+			0,
+			1,
+			2,
+			1,
+			1,
+			3,
+			1,
+			2,
+			0,
+			1,
+			2,
+			1,
+			3,
+			1,
+			2,
+			1,
+			1,
+			0,
+			1,
+			3
+		]
 	},
 	{
-		"tutorial_id": 14,
+		"tutorial_id": null,
+		"topic": "Natural Language Processing",
 		"questions": [
-			"What is the goal of combining AI with robotics?",
-			"How does AI enhance robotics?",
-			"What might be a real-world application of AI in robotics?"
+			"Which of the following is not a task in natural language processing?",
+			"What is the primary goal of natural language processing?",
+			"Which of the following techniques is commonly used in text classification tasks?",
+			"What is the process of converting words into their base or root form called?",
+			"Which algorithm is commonly used in named entity recognition?",
+			"What is the purpose of the Bag-of-Words (BoW) model in NLP?",
+			"Which NLP library in Python provides a comprehensive set of tools for natural language processing?",
+			"Which of the following is an example of a stop word?",
+			"Which technique is used to predict the probability of a sequence of words in a given context?",
+			"Which NLP task involves labeling words in a sentence with their respective grammatical categories?",
+			"Which neural network architecture is commonly used for sequence-to-sequence tasks like machine translation?",
+			"Which of the following algorithms is used for topic modeling?",
+			"Which technique aims to identify and extract the main ideas or topics from a collection of documents?",
+			"Which metric is commonly used to evaluate machine translation systems?",
+			"Which of the following is an example of a word embedding technique?",
+			"Which method is used to calculate the similarity between two documents based on their content?",
+			"Which technique is used to generate new sentences or text based on existing data?",
+			"Which algorithm is commonly used for sentiment analysis?",
+			"What is the purpose of the attention mechanism in neural networks?",
+			"Which of the following is not a sequence labeling task?",
+			"Which technique is used to identify the syntactic structure of a sentence by analyzing the relationships between words?",
+			"Which method is used to deal with the problem of out-of-vocabulary words in language modeling?",
+			"Which technique is used to improve the performance of machine translation models by leveraging monolingual data?",
+			"Which of the following is a popular pre-trained language model developed by OpenAI?",
+			"Which method is used to break down a sentence into its grammatical components?",
+			"Which technique is used to generate word representations based on the co-occurrence patterns of words in a large corpus?",
+			"Which of the following is an example of a deep learning model architecture used in NLP?",
+			"Which technique is used to handle imbalanced datasets in text classification?",
+			"Which method is used to assign a sentiment label to a given text?",
+			"Which technique is used to identify and extract specific pieces of information from unstructured text?"
 		],
 		"answers": [
 			[
-				"Enhancing graphics",
-				"Improving storage",
-				"Creating intelligent machines"
+				"Sentiment analysis",
+				"Speech recognition",
+				"Image classification",
+				"Named entity recognition"
 			],
 			[
-				"By reducing power consumption",
-				"By improving aesthetics",
-				"By enabling autonomous decision-making"
-			],
-			["Basic calculators", "Data entry", "Autonomous vehicles"]
-		],
-		"correct_answers": [2, 2, 2]
-	},
-	{
-		"tutorial_id": 15,
-		"questions": [
-			"How does IoT relate to AI?",
-			"What is a potential benefit of IoT?",
-			"Can IoT devices operate independently of AI?"
-		],
-		"answers": [
-			[
-				"IoT is a subset of AI",
-				"They are unrelated",
-				"IoT devices often leverage AI"
+				"Understanding and generating human language",
+				"Translating languages",
+				"Analyzing data patterns",
+				"Creating conversational agents"
 			],
 			[
-				"Reducing data usage",
-				"Enhancing connectivity and automation",
-				"Increasing manual tasks"
+				"Latent Semantic Analysis (LSA)",
+				"Convolutional Neural Networks (CNN)",
+				"Principal Component Analysis (PCA)",
+				"Support Vector Machines (SVM)"
+			],
+			["Tokenization", "Stemming", "Lemmatization", "Part-of-speech tagging"],
+			[
+				"K-means clustering",
+				"Hidden Markov Models (HMM)",
+				"Apriori algorithm",
+				"Decision trees"
 			],
 			[
-				"Only in gaming",
-				"Yes, they can operate independently",
-				"No, they always need AI"
+				"To represent words as vectors",
+				"To calculate word frequencies",
+				"To identify syntactic dependencies",
+				"To perform sentiment analysis"
+			],
+			[
+				"TensorFlow",
+				"PyTorch",
+				"NLTK (Natural Language Toolkit)",
+				"Scikit-learn"
+			],
+			["Noun", "Verb", "Adjective", "The"],
+			[
+				"Language modeling",
+				"Named entity recognition",
+				"Sentiment analysis",
+				"Machine translation"
+			],
+			[
+				"Named entity recognition",
+				"Part-of-speech tagging",
+				"Dependency parsing",
+				"Sentiment analysis"
+			],
+			[
+				"Long Short-Term Memory (LSTM)",
+				"Convolutional Neural Network (CNN)",
+				"Recurrent Neural Network (RNN)",
+				"Transformer"
+			],
+			[
+				"K-means clustering",
+				"Naive Bayes",
+				"Latent Dirichlet Allocation (LDA)",
+				"Random Forests"
+			],
+			[
+				"Sentiment analysis",
+				"Text summarization",
+				"Named entity recognition",
+				"Document clustering"
+			],
+			["BLEU score", "F1 score", "Precision", "Recall"],
+			[
+				"One-Hot Encoding",
+				"Bag-of-Words",
+				"Latent Semantic Analysis (LSA)",
+				"Word2Vec"
+			],
+			[
+				"Cosine similarity",
+				"Euclidean distance",
+				"Jaccard similarity",
+				"Pearson correlation coefficient"
+			],
+			[
+				"Sentiment analysis",
+				"Text generation",
+				"Named entity recognition",
+				"Part-of-speech tagging"
+			],
+			[
+				"Naive Bayes",
+				"K-nearest neighbors (KNN)",
+				"Decision trees",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"To improve computational efficiency",
+				"To reduce overfitting",
+				"To focus on relevant information",
+				"To calculate feature importance"
+			],
+			[
+				"Named entity recognition",
+				"Part-of-speech tagging",
+				"Sentiment analysis",
+				"Chunking"
+			],
+			[
+				"Dependency parsing",
+				"Sentiment analysis",
+				"Text classification",
+				"Named entity recognition"
+			],
+			[
+				"Word sense disambiguation",
+				"WordNet",
+				"Byte Pair Encoding (BPE)",
+				"Named entity recognition"
+			],
+			[
+				"Transfer learning",
+				"Reinforcement learning",
+				"Data augmentation",
+				"Backtranslation"
+			],
+			["BERT", "Word2Vec", "GloVe", "ElMo"],
+			["Chunking", "Lemmatization", "Stemming", "Tokenization"],
+			[
+				"Word sense disambiguation",
+				"Named entity recognition",
+				"Latent Semantic Analysis (LSA)",
+				"Text summarization"
+			],
+			[
+				"Random Forests",
+				"Support Vector Machines (SVM)",
+				"Bidirectional LSTM",
+				"K-means clustering"
+			],
+			[
+				"Oversampling",
+				"Undersampling",
+				"SMOTE (Synthetic Minority Over-sampling Technique)",
+				"All of the above"
+			],
+			[
+				"Named entity recognition",
+				"Sentiment analysis",
+				"Part-of-speech tagging",
+				"Dependency parsing"
+			],
+			[
+				"Sentiment analysis",
+				"Text classification",
+				"Named entity recognition",
+				"Word sense disambiguation"
 			]
 		],
-		"correct_answers": [2, 1, 1]
+		"correct_answers": [
+			2,
+			0,
+			3,
+			1,
+			1,
+			1,
+			2,
+			3,
+			0,
+			1,
+			3,
+			2,
+			0,
+			2,
+			3,
+			0,
+			1,
+			0,
+			2,
+			2,
+			0,
+			2,
+			3,
+			0,
+			0,
+			2,
+			2,
+			3,
+			1,
+			2
+		]
 	},
 	{
-		"tutorial_id": 16,
+		"tutorial_id": null,
+		"topic": "Computer Vision",
 		"questions": [
-			"What is the purpose of Explainable AI (XAI)?",
-			"How does XAI benefit AI users?",
-			"What might be a challenge in implementing XAI?"
+			"What is computer vision?",
+			"Which of the following is not a fundamental task in computer vision?",
+			"Which technique is commonly used for edge detection in images?",
+			"Which of the following algorithms is commonly used for image classification?",
+			"Which concept is used to represent the transformation from a 3D scene to a 2D image?",
+			"Which technique is used to detect and track objects in a sequence of frames?",
+			"Which metric is commonly used to evaluate the performance of object detection algorithms?",
+			"Which technique is used to remove noise from images while preserving important details?",
+			"Which algorithm is commonly used for image segmentation?",
+			"Which technique is used to recognize and understand text in images or videos?",
+			"Which of the following is a popular pre-trained deep learning model for image classification?",
+			"Which technique is used to estimate the camera's pose and reconstruct the 3D structure of a scene?",
+			"Which concept is used to represent the local features of an image that are invariant to scale and rotation?",
+			"Which technique is used to align two or more images to create a single panoramic image?",
+			"Which method is used to generate realistic images by learning from a large dataset?",
+			"Which algorithm is commonly used for face recognition?",
+			"Which technique is used to estimate the depth information of a scene from a single image?",
+			"Which technique is used to recognize and track human body parts in images or videos?",
+			"Which technique is used to generate a compact representation of an image by preserving its important features?",
+			"Which algorithm is commonly used for object detection in images?",
+			"Which technique is used to detect and track facial landmarks in images or videos?",
+			"Which method is used to represent colors in digital images?",
+			"Which technique is used to detect and recognize objects based on their geometric shapes?",
+			"Which algorithm is commonly used for image registration, aligning two or more images?",
+			"Which technique is used to classify images based on visual similarity?",
+			"Which concept is used to represent the geometric transformations of objects in an image?",
+			"Which technique is used to remove the illumination variations in images?",
+			"Which algorithm is commonly used for image super-resolution, enhancing the resolution of an image?",
+			"Which technique is used to detect and recognize objects based on their texture patterns?",
+			"Which concept is used to represent the 3D shape of an object using a set of 2D images?"
 		],
 		"answers": [
 			[
-				"To reduce AI costs",
-				"To improve AI efficiency",
-				"To make AI decisions transparent"
+				"The study of computer graphics",
+				"The study of computer networks",
+				"The study of algorithms for analyzing and interpreting visual data",
+				"The study of computer hardware architecture"
 			],
 			[
-				"Reduces data needed",
-				"Simplifies AI models",
-				"Enhances user trust and understanding"
+				"Object detection",
+				"Image classification",
+				"Speech recognition",
+				"Image segmentation"
 			],
 			[
-				"Ensuring data privacy",
-				"Both transparency and privacy",
-				"Balancing transparency with complexity"
+				"Fourier transform",
+				"Histogram equalization",
+				"Canny edge detection",
+				"Gaussian blur"
+			],
+			[
+				"K-means clustering",
+				"Decision trees",
+				"Convolutional Neural Networks (CNN)",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Perspective projection",
+				"Affine transformation",
+				"Euler angles",
+				"Homography"
+			],
+			[
+				"Optical flow",
+				"Template matching",
+				"Harris corner detection",
+				"Scale-invariant feature transform (SIFT)"
+			],
+			["Precision", "Recall", "F1 score", "All of the above"],
+			[
+				"Median filtering",
+				"Sobel operator",
+				"Histogram equalization",
+				"Laplacian of Gaussian (LoG) filter"
+			],
+			[
+				"K-means clustering",
+				"Depth-first search",
+				"Gaussian blur",
+				"Fourier transform"
+			],
+			[
+				"Optical character recognition (OCR)",
+				"Motion detection",
+				"Feature extraction",
+				"Image stitching"
+			],
+			[
+				"AlexNet",
+				"K-means",
+				"Random Forests",
+				"Principal Component Analysis (PCA)"
+			],
+			[
+				"Depth estimation",
+				"Stereo vision",
+				"Structure from Motion (SfM)",
+				"Texture mapping"
+			],
+			[
+				"Hough transform",
+				"Histogram of Oriented Gradients (HOG)",
+				"Scale-invariant feature transform (SIFT)",
+				"Eigenfaces"
+			],
+			[
+				"Image segmentation",
+				"Template matching",
+				"Image stitching",
+				"Image compression"
+			],
+			[
+				"GANs (Generative Adversarial Networks)",
+				"Random Forests",
+				"K-means clustering",
+				"Principal Component Analysis (PCA)"
+			],
+			[
+				"K-means clustering",
+				"Decision trees",
+				"Support Vector Machines (SVM)",
+				"DeepFace"
+			],
+			[
+				"Image segmentation",
+				"Depth from focus",
+				"Depth from motion",
+				"Structure from Motion (SfM)"
+			],
+			[
+				"Histogram of Oriented Gradients (HOG)",
+				"Optical flow",
+				"Haar cascades",
+				"SURF (Speeded-Up Robust Features)"
+			],
+			[
+				"Histogram equalization",
+				"Principal Component Analysis (PCA)",
+				"Fourier transform",
+				"Median filtering"
+			],
+			[
+				"K-means clustering",
+				"Random Forests",
+				"Haar cascades",
+				"Support Vector Machines (SVM)"
+			],
+			[
+				"Principal Component Analysis (PCA)",
+				"Optical flow",
+				"Active Shape Models (ASMs)",
+				"Histogram of Oriented Gradients (HOG)"
+			],
+			[
+				"RGB (Red, Green, Blue)",
+				"HSV (Hue, Saturation, Value)",
+				"CMYK (Cyan, Magenta, Yellow, Black)",
+				"All of the above"
+			],
+			[
+				"Contour detection",
+				"Texture analysis",
+				"Blob detection",
+				"Edge detection"
+			],
+			[
+				"K-means clustering",
+				"Optical flow",
+				"SURF (Speeded-Up Robust Features)",
+				"RANSAC (Random Sample Consensus)"
+			],
+			[
+				"Image retrieval",
+				"Semantic segmentation",
+				"Image captioning",
+				"Image synthesis"
+			],
+			[
+				"Homography",
+				"Histogram equalization",
+				"Fourier transform",
+				"Canny edge detection"
+			],
+			[
+				"Image sharpening",
+				"Histogram equalization",
+				"Histogram matching",
+				"Image denoising"
+			],
+			[
+				"K-means clustering",
+				"Decision trees",
+				"Support Vector Machines (SVM)",
+				"Deep learning-based models"
+			],
+			[
+				"Edge detection",
+				"Histogram equalization",
+				"Texture analysis",
+				"Image compression"
+			],
+			[
+				"Image alignment",
+				"Depth estimation",
+				"Shape from Shading",
+				"Structure from Motion (SfM)"
 			]
 		],
-		"correct_answers": [2, 2, 2]
-	},
-	{
-		"tutorial_id": 17,
-		"questions": [
-			"What does 'AI for Everyone' aim to achieve?",
-			"Who is the primary audience for this tutorial?",
-			"Why is AI literacy important for non-technical audiences?"
-		],
-		"answers": [
-			[
-				"Focus on AI in gaming",
-				"Teach advanced AI concepts",
-				"Introduce AI literacy"
-			],
-			["Software developers", "AI experts", "Non-technical audiences"],
-			[
-				"For understanding computer hardware",
-				"For developing AI models",
-				"For informed decision-making"
-			]
-		],
-		"correct_answers": [2, 2, 2]
+		"correct_answers": [
+			2,
+			2,
+			2,
+			2,
+			0,
+			1,
+			3,
+			0,
+			0,
+			0,
+			0,
+			2,
+			2,
+			2,
+			0,
+			3,
+			1,
+			2,
+			1,
+			2,
+			2,
+			3,
+			0,
+			3,
+			0,
+			0,
+			2,
+			3,
+			2,
+			3
+		]
 	}
 ]

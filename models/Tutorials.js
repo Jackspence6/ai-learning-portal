@@ -43,6 +43,8 @@ Tutorials.init(
 				"Bayesian",
 				"Neural Network",
 				"Reinforcement Learning",
+				"Natural Language Processing",
+				"Computer Vision",
 			],
 			allowNull: false,
 		},
