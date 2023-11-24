@@ -17,5 +17,18 @@ router.get("/", (req, res) => {
 	});
 });
 
+// Route to redirect user to login page if not already logged in
+router.get("/login", async (req, res) => {
+	try {
+		if (req.session.logged_in) {
+			res.redirect("/");
+			return;
+		}
+		res.render("login");
+	} catch (err) {
+		res.status(400).json(err);
+	}
+});
+
 // Exports
 module.exports = router;
