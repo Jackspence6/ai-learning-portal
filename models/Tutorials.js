@@ -22,8 +22,8 @@ Tutorials.init(
 			type: DataTypes.TEXT,
 			allowNull: false,
 		},
-		content: {
-			type: DataTypes.TEXT,
+		youtube_url: {
+			type: DataTypes.STRING,
 			allowNull: false,
 		},
 		date_created: {
