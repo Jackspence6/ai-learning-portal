@@ -1,0 +1,20 @@
+{{#each tutorials as |tutorial| }}
+<div class="card library-card">
+    <div class="card-content">
+        <span class="card-title activator">{{tutorial.title}}<i class="material-icons right">more_vert</i></span>
+        <div>
+            <img class="library-image" src="{{tutorial.image_url}}" />
+        </div>
+        <p>
+            <a target="_blank" href="{{tutorial.youtube_url}}">{{tutorial.title}}</a>
+        </p>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">{{tutorial.title}}<i
+                class="material-icons right">close</i></span>
+        <p>
+            {{tutorial.description}}
+        </p>
+    </div>
+</div>
+{{/each}}
