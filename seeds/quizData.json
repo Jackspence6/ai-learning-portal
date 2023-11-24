@@ -246,7 +246,7 @@
 	},
 	{
 		"tutorial_id": 15,
-		" topic": "Unsupervised Learning",
+		"topic": "Unsupervised Learning",
 		"questions": [
 			"Which of the following is an unsupervised learning algorithm?",
 			"In unsupervised learning, the training dataset consists of:",
