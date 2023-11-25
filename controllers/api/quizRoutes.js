@@ -6,14 +6,14 @@ const { Quizzes } = require("../../models");
 router.get("/", async (req, res) => {
 	try {
 		const quizData = await Quizzes.findAll({
-			attributes: [],
+			attributes: ["topic"],
 		});
 
 		// Serializing data so the template can read it
 		const quizzes = quizData.map((quiz) => quiz.get({ plain: true }));
 
 		// Passing serialized data into the Handlebars template
-		res.render("", {
+		res.render("quizzes", {
 			quizzes,
 			on_quizPage: true,
 			logged_in: req.session.logged_in,

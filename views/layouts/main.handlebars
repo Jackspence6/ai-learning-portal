@@ -21,7 +21,11 @@
     {{#if on_tutorialPage}}
     <link rel="stylesheet" href="/css/tutorials.css" />
     {{else}}
+    {{#if on_quizPage}}
+    <link rel="stylesheet" href="/css/quizzes.css" />
+    {{else}}
     <link rel="stylesheet" href="/css/styles.css" />
+    {{/if}}
     {{/if}}
 </head>
 
