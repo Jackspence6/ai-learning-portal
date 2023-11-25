@@ -1,0 +1,202 @@
+/******************************************/
+/* Variable Selectors */
+/******************************************/
+
+/******************************************/
+/* Universal Selector */
+/******************************************/
+/* 1rem is 13px */
+html {
+	font-size: 13px;
+}
+/******************************************/
+/* Element Selectors */
+/******************************************/
+nav {
+	background-color: black;
+	height: 5rem;
+}
+
+/* Logo Icon */
+nav .brand-logo {
+	font-size: 4.5rem;
+}
+
+body {
+	background-color: #24292e;
+}
+
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	margin-bottom: 0;
+	margin-top: 4rem;
+}
+
+h2 {
+	font-family: fantasy;
+	color: white;
+	font-size: 3rem;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h5 {
+	border-bottom: 1px solid;
+}
+
+a {
+	font-weight: bold;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1rem;
+	color: black;
+}
+
+/* Feature Images */
+img {
+	height: 30rem;
+	width: 45rem;
+	border-radius: 1rem;
+	order: 2;
+}
+
+div.col.l6.col.s12 {
+	margin-top: 5px;
+}
+
+div.col.l4.offset-l2.col.s12 {
+	margin-top: 5px;
+}
+/******************************************/
+/* Class Selectors */
+/******************************************/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.card {
+	border-radius: 1rem;
+	background-color: black;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.card .card-content {
+	padding: 0%;
+	border: 2px dashed white;
+	border-radius: 15px;
+}
+
+.col.s12 {
+	margin-top: 10rem;
+}
+
+.row {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.input-field {
+	margin-bottom: 0px;
+	color: white;
+}
+
+.library-card {
+	width: 30%;
+	margin: 3rem;
+}
+
+.card-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 7rem;
+}
+
+.card-title {
+	color: white;
+}
+
+.card .card-content .card-title {
+	font-weight: bold;
+	font-family: monospace;
+	margin: 0;
+}
+
+.card .card-title {
+	font-weight: bold;
+	border-bottom: 5px solid black;
+	text-align: center;
+	font-family: roboto mono;
+	font-size: 20px;
+}
+
+.footer-container {
+	padding: 10px;
+}
+
+.page-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: space-between;
+	padding: 0%;
+	margin-top: 1rem;
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: center;
+}
+/******************************************/
+/* ID Selectors */
+/******************************************/
+#library-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Search bar for Quiz Library */
+#library-search {
+	width: 90%;
+	margin: 5rem;
+	border-radius: 2rem;
+}
+
+/* Quiz Library contents container */
+#library-contents-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#search-icon {
+	position: absolute;
+	top: -7px;
+}
+
+#search {
+	margin: 0%;
+}
+/******************************************/
+/* Media queries */
+/******************************************/
+
+/******************************************/
+/* Pseudo Classes and Elements */
+/******************************************/
