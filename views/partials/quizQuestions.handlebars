@@ -1,9 +1,7 @@
 {{#each this.questions as |question questionIndex|}}
 <div class="question">
     <h3>{{question}}</h3>
-    <ol>
-        {{> quizAnswers quizzes questionIndex=questionIndex }}
-    </ol>
+   {{> quizAnswers quiz}}
     <hr />
 </div>
 {{/each}}
