@@ -1,0 +1,16 @@
+{{#each this.questions as |question questionIndex|}}
+<div class="question">
+    <h3>{{question}}</h3>
+    <ol>
+        {{#each ../answers.[questionIndex] as |answer answerIndex|}}
+        <li>
+            <button class="answer-btn"
+                onclick="handleAnswerClick('{{../id}}', '{{questionIndex}}', '{{answerIndex}}', '{{../correct_answers.[questionIndex]}}')">
+                {{answer}}
+            </button>
+        </li>
+        {{/each}}
+    </ol>
+    <hr />
+</div>
+{{/each}}
