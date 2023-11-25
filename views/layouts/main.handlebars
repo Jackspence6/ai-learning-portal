@@ -24,7 +24,11 @@
     {{#if on_quizPage}}
     <link rel="stylesheet" href="/css/quizzes.css" />
     {{else}}
+    {{#if on_singleQuiz}}
+    <link rel="stylesheet" href="/css/singleQuiz.css" />
+    {{else}}
     <link rel="stylesheet" href="/css/styles.css" />
+    {{/if}}
     {{/if}}
     {{/if}}
 </head>

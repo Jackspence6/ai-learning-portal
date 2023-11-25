@@ -26,7 +26,15 @@ router.get("/", async (req, res) => {
 // Route to GET single quiz by it's Id
 router.get("/:id", async (req, res) => {
 	try {
-		const quizData = await Quizzes.findByPk(req.params.id);
+		const quizData = await Quizzes.findByPk(req.params.id, {
+			attributes: [
+				"tutorial_id",
+				"questions",
+				"answers",
+				"correct_answers",
+				"topic",
+			],
+		});
 
 		// Checking if that Quiz exists
 		if (!quizData) {
@@ -35,11 +43,11 @@ router.get("/:id", async (req, res) => {
 		}
 
 		// Serializing data so the template can read it
-		const quizzes = quizData.get({ plain: true });
+		const quiz = quizData.get({ plain: true });
 
 		// Passing serialized data into the Handlebars template
-		res.render("quizzes", {
-			quizzes,
+		res.render("individualQuiz", {
+			quizzes: quiz,
 			logged_in: req.session.logged_in,
 			on_singleQuiz: true,
 		});

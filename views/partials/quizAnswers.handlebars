@@ -1,0 +1,8 @@
+{{#each this.answers.[@root.questionIndex] as |answer answerIndex|}}
+<li>
+    <button class="answer-btn"
+        onclick="handleAnswerClick('{{this.id}}', '{{@root.questionIndex}}', '{{answerIndex}}', '{{this.correct_answers.[@root.questionIndex]}}')">
+        {{answer}}
+    </button>
+</li>
+{{/each}}

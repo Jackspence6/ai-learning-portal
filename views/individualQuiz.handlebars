@@ -1,6 +1,4 @@
-{{#each quizzes as |quiz|}}
-<h2>Topic: {{quiz.topic}}</h2>
+<h2>Topic: {{quizzes.topic}}</h2>
 <div class="quiz-container">
-    {{> quizQuestions}}
+    {{> quizQuestions quizzes}}
 </div>
-{{/each}}
