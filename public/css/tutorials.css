@@ -27,11 +27,13 @@ body {
 }
 
 h1 {
-	font-family: monospace;
+	font-family: fantasy;
 	text-align: center;
 	color: white;
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
+	margin-bottom: 0;
+	margin-top: 4rem;
 }
 
 h2 {
