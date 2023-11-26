@@ -47,7 +47,7 @@ router.get("/:id", async (req, res) => {
 
 		// Passing serialized data into the Handlebars template
 		res.render("individualQuiz", {
-			quiz,
+			quizzes: quiz,
 			logged_in: req.session.logged_in,
 			on_singleQuiz: true,
 		});
