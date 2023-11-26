@@ -64,6 +64,12 @@ router.get("/:id", async (req, res) => {
 			on_singleQuiz: true,
 			correctAnswersJSON: JSON.stringify(quizToSend.correct_answers),
 		});
+
+		// Saving session
+		req.session.save(() => {
+			req.session.quiz_id = quizToSend.id;
+			req.session.logged_in = true;
+		});
 	} catch (err) {
 		res.status(500).json(err);
 	}
