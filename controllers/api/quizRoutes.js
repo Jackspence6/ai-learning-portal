@@ -6,7 +6,7 @@ const { Quizzes } = require("../../models");
 router.get("/", async (req, res) => {
 	try {
 		const quizData = await Quizzes.findAll({
-			attributes: ["topic"],
+			attributes: ["topic", "id"],
 		});
 
 		// Serializing data so the template can read it
@@ -28,6 +28,7 @@ router.get("/:id", async (req, res) => {
 	try {
 		const quizData = await Quizzes.findByPk(req.params.id, {
 			attributes: [
+				"id",
 				"tutorial_id",
 				"questions",
 				"answers",
@@ -48,6 +49,7 @@ router.get("/:id", async (req, res) => {
 
 		// Constructing the object to be sent to the frontend
 		const quizToSend = {
+			id: quiz.id,
 			tutorial_id: quiz.tutorial_id,
 			questions: quiz.questions,
 			answers: quiz.answers,
