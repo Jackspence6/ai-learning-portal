@@ -1,15 +1,11 @@
 {{#each this.questions as |question questionIndex|}}
-<div class="question">
+<div class="question question-{{questionIndex}}">
     <h3>{{question}}</h3>
     <ol>
-        {{!-- Logging specific answers array --}}
-        {{!-- {{console_log (lookup ../this.answers questionIndex)}} --}}
-
         {{#each (lookup ../this.answers questionIndex) as |answer answerIndex|}}
         <li>
-            <button class="answer-btn" onclick="handleAnswerClick(
-                '{{questionIndex}}',
-                 '{{answerIndex}}')">
+            <button class="answer-btn answer-{{answerIndex}}"
+                onclick="handleAnswerClick('{{questionIndex}}', '{{answerIndex}}')">
                 {{answer}}
             </button>
         </li>
@@ -18,4 +14,5 @@
     <hr />
 </div>
 {{/each}}
+
 <script src="/js/quizzes.js"></script>

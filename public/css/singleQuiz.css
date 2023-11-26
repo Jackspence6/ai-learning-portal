@@ -217,6 +217,10 @@ hr {
 	font-style: italic;
 }
 
+.selected-answer {
+	background-color: #007bff;
+	color: white;
+}
 /******************************************/
 /* ID Selectors */
 /******************************************/
