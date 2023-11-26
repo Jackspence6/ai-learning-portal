@@ -51,6 +51,7 @@ router.get("/:id", async (req, res) => {
 			quizzes: quiz,
 			logged_in: req.session.logged_in,
 			on_singleQuiz: true,
+			correctAnswers: quiz.correct_answers,
 		});
 	} catch (err) {
 		res.status(500).json(err);
