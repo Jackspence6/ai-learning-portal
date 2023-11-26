@@ -5,9 +5,11 @@
         {{!-- Logging specific answers array --}}
         {{console_log (lookup ../this.answers questionIndex)}}
 
-        {{#each (lookup ../this.answers questionIndex) as |answer|}}
+        {{#each (lookup ../this.answers questionIndex) as |answer answerIndex|}}
         <li>
-            <button class="answer-btn">
+            <button class="answer-btn" onclick="handleAnswerClick(
+                '{{questionIndex}}',
+                 '{{answerIndex}}')">
                 {{answer}}
             </button>
         </li>
@@ -16,8 +18,10 @@
     <hr />
 </div>
 {{/each}}
-
+{{ console_log this.correct_answers answerIndex }}
+{{!--
 <script>
-    var correctAnswers = {{{ json correctAnswers }}};
-</script>
+    var correctAnswers = {{{ this.correct_answers answerIndex }}};
+    console.log(correctAnswers);
+</script> --}}
 <script src="/js/quizzes.js"></script>

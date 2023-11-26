@@ -46,6 +46,8 @@ router.get("/:id", async (req, res) => {
 		const quiz = quizData.get({ plain: true });
 		console.log(quiz);
 
+		quiz.correct_answers = JSON.stringify(quiz.correct_answers);
+
 		// Passing serialized data into the Handlebars template
 		res.render("individualQuiz", {
 			quizzes: quiz,
