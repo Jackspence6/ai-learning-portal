@@ -6,8 +6,13 @@
         {{console_log (lookup ../this.answers questionIndex)}}
 
         {{#each (lookup ../this.answers questionIndex) as |answer|}}
-        <li>{{answer}}</li>
+        <li>
+            <button class="answer-btn">
+                {{answer}}
+            </button>
+        </li>
         {{/each}}
     </ol>
+    <hr />
 </div>
 {{/each}}
