@@ -16,13 +16,13 @@ UserProgress.belongsTo(Users, {
 	foreignKey: "user_id",
 });
 
-// Tutorial to UserProgress (One-to-Many)
-Tutorials.hasMany(UserProgress, {
-	foreignKey: "tutorial_id",
+// Quiz to UserProgress (One-to-Many)
+Quizzes.hasMany(UserProgress, {
+	foreignKey: "quiz_id",
 	onDelete: "CASCADE",
 });
-UserProgress.belongsTo(Tutorials, {
-	foreignKey: "tutorial_id",
+UserProgress.belongsTo(Quizzes, {
+	foreignKey: "quiz_id",
 });
 
 // Tutorial to Quiz
