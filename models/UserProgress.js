@@ -32,6 +32,7 @@ UserProgress.init(
 		progress_status: {
 			type: DataTypes.ENUM("Not Started", "Completed"),
 			allowNull: false,
+			defaultValue: "Not Started",
 		},
 		quiz_scores: {
 			type: DataTypes.JSON,
