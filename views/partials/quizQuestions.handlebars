@@ -3,7 +3,7 @@
     <h3>{{question}}</h3>
     <ol>
         {{!-- Logging specific answers array --}}
-        {{console_log (lookup ../this.answers questionIndex)}}
+        {{!-- {{console_log (lookup ../this.answers questionIndex)}} --}}
 
         {{#each (lookup ../this.answers questionIndex) as |answer answerIndex|}}
         <li>
@@ -18,10 +18,4 @@
     <hr />
 </div>
 {{/each}}
-{{ console_log this.correct_answers answerIndex }}
-{{!--
-<script>
-    var correctAnswers = {{{ this.correct_answers answerIndex }}};
-    console.log(correctAnswers);
-</script> --}}
 <script src="/js/quizzes.js"></script>

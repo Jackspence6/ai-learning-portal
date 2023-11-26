@@ -2,3 +2,8 @@
 <div class="quiz-container">
     {{> quizQuestions quizzes}}
 </div>
+
+<script>
+    var correctAnswers = {{{ correctAnswersJSON }}};
+</script>
+<script src="/js/quizzes.js"></script>

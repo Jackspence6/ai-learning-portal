@@ -2,7 +2,6 @@ var totalCorrect = 0;
 var totalAnswered = 0;
 var userResponses = {};
 
-console.log(correctAnswers);
 function handleAnswerClick(questionIndex, answerIndex) {
 	userResponses[questionIndex] = parseInt(answerIndex);
 

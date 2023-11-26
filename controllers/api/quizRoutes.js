@@ -46,14 +46,21 @@ router.get("/:id", async (req, res) => {
 		const quiz = quizData.get({ plain: true });
 		console.log(quiz);
 
-		quiz.correct_answers = JSON.stringify(quiz.correct_answers);
+		// Constructing the object to be sent to the frontend
+		const quizToSend = {
+			tutorial_id: quiz.tutorial_id,
+			questions: quiz.questions,
+			answers: quiz.answers,
+			topic: quiz.topic,
+			correct_answers: quiz.correct_answers,
+		};
 
 		// Passing serialized data into the Handlebars template
 		res.render("individualQuiz", {
-			quizzes: quiz,
+			quizzes: quizToSend,
 			logged_in: req.session.logged_in,
 			on_singleQuiz: true,
-			correctAnswers: quiz.correct_answers,
+			correctAnswersJSON: JSON.stringify(quizToSend.correct_answers),
 		});
 	} catch (err) {
 		res.status(500).json(err);
