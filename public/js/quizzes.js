@@ -30,8 +30,7 @@ function handleAnswerClick(questionIndex, answerIndex) {
 
 	// Checking if all questions have been answered
 	if (Object.keys(userResponses).length === correctAnswers.length) {
-		evaluateAnswers();
-		displayScore();
+		displayScoreAndSendResults();
 	}
 }
 
@@ -47,9 +46,41 @@ function evaluateAnswers() {
 	}
 }
 
-// Function to display users quiz score once quiz is completed
-function displayScore() {
+// Function to display users quiz score and save results once quiz is completed
+async function displayScoreAndSendResults() {
+	evaluateAnswers();
+
 	alert(
 		"Your score: " + totalCorrect + " out of " + correctAnswers.length + "!"
 	);
+
+	const quiz_scores = {
+		totalCorrect,
+		totalQuestions: correctAnswers.length,
+		userResponses,
+	};
+	const progress_status = "Completed";
+
+	try {
+		const response = await fetch("/api/progress", {
+			method: "POST",
+			body: JSON.stringify({
+				progress_status,
+				quiz_scores,
+			}),
+			headers: {
+				"Content-Type": "application/json",
+			},
+		});
+
+		if (response.ok) {
+			console.log("Quiz results saved successfully!");
+			window.location.href = "/";
+		} else {
+			console.error("Failed to save quiz results");
+		}
+	} catch (error) {
+		console.error("Error:", error);
+		alert("An error occurred while saving your quiz results!");
+	}
 }
