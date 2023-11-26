@@ -1,9 +1,10 @@
+{{console_log quiz.answers}}
 <ol>
-{{#each this.answers.[questionIndex] as |answer answerIndex|}}
-<li>
-    <button class="answer-btn">
-        {{answer}}
-    </button>
-</li>
-{{/each}}
+    {{#each quiz.answers.[questionIndex] as |answer answerIndex|}}
+    <li>
+        <button class="answer-btn">
+            {{answer}}
+        </button>
+    </li>
+    {{/each}}
 </ol>

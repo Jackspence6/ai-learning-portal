@@ -1,7 +1,13 @@
 {{#each this.questions as |question questionIndex|}}
 <div class="question">
     <h3>{{question}}</h3>
-    {{> quizAnswers quizzes}}
-    <hr />
+    <ol>
+        {{!-- Logging specific answers array --}}
+        {{console_log (lookup ../this.answers questionIndex)}}
+
+        {{#each (lookup ../this.answers questionIndex) as |answer|}}
+        <li>{{answer}}</li>
+        {{/each}}
+    </ol>
 </div>
 {{/each}}

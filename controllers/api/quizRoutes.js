@@ -44,6 +44,7 @@ router.get("/:id", async (req, res) => {
 
 		// Serializing data so the template can read it
 		const quiz = quizData.get({ plain: true });
+		console.log(quiz);
 
 		// Passing serialized data into the Handlebars template
 		res.render("individualQuiz", {
