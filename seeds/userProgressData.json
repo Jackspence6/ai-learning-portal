@@ -8,7 +8,7 @@
 	{
 		"user_id": 1,
 		"quiz_id": 2,
-		"progress_status": "In Progress",
+		"progress_status": "Completed",
 		"quiz_scores": "{\"score\": 80}"
 	},
 	{
