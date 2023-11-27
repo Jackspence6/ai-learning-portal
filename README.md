@@ -37,7 +37,7 @@ Set up your environment variables. Create a `.env` file in the root directory wi
 ```
 DB_NAME="aiPortal_db"
 DB_USER="[your_mysql_username]"
-DB_PW="[your_mysql_password]"  
+DB_PW="[your_mysql_password]"
 SESS_SECRET="[your_session_secret]"
 ```
 
@@ -67,52 +67,52 @@ The application will be running on `localhost:3001`.
 
 ## Interactive Features
 
-### Tutorial Interaction and Code Editing
+### Dynamic Content Management
 
-- Embedded code editors in tutorials for live interaction.
-- Preloaded code snippets to illustrate AI concepts.
+- Efficient retrieval of quizzes based on specific topics or IDs.
+- Customizable learning experience with a variety of tutorials and quizzes.
 
-### Quiz and Assessment Tools
+### User Authentication and Account Management
 
-- End-of-tutorial quizzes to test knowledge.
-- Immediate feedback on quiz submissions.
+- Secure user authentication system for personalized access.
+- Account management capabilities allowing users to log in and out of the platform.
 
-### User Progress Tracking
+### Comprehensive Learning Path
 
-- Track user progress through tutorials.
-- Save progress with user accounts.
+- A structured learning path through various AI and Machine Learning topics.
+- Progress tracking to help users pick up where they left off.
+
+### Responsive Quiz Interface
+
+- Quizzes adaptively respond to user inputs, providing an engaging learning experience.
+- Option to revisit and review quiz content for improved learning.
+
+### Seamless Navigation and User Experience
+
+- Intuitive navigation through different sections of the application.
+- User-friendly interface catering to both beginners and advanced learners.
 
 ## API Routes
-
-### Tutorial and Content Management Routes
-
-- `GET /api/tutorials` - Retrieve all tutorials.
-- `GET /api/tutorials/:id` - Retrieve a specific tutorial.
-
-### Interactive Code Example Routes
-
-- `GET /api/examples/:tutorialId` - Retrieve code examples for a specific tutorial.
-- `POST /api/examples` - Add a new code example (requires authentication).
-- `PUT /api/examples/:id` - Update an existing code example (requires authentication).
-- `DELETE /api/examples/:id` - Delete a code example (requires authentication).
-
-### Quiz and Assessment Routes
-
-- `GET /api/quizzes/:tutorialId` - Retrieve quizzes for a specific tutorial.
-- `POST /api/quizzes` - Create a new quiz (requires authentication).
-- `PUT /api/quizzes/:id` - Update an existing quiz (requires authentication).
-- `DELETE /api/quizzes/:id` - Delete a quiz (requires authentication).
 
 ### User Authentication and Management Routes
 
 - `POST /api/users` - Register a new user.
 - `POST /api/users/login` - Authenticate and log in a user.
-- `POST /api/users/logout` - Log out a user.
+- `GET /api/users/logout` - Log out a user.
 
 ### User Progress Tracking Routes
 
-- `GET /api/users/:userId/progress` - Retrieve a user's learning progress (requires authentication).
-- `POST /api/users/:userId/progress` - Update a user's learning progress (requires authentication).
+- `POST /api/progress` - Save user quiz results and quiz status (requires authentication).
+- `GET /api/progress` - Fetch user progress by user ID (requires authentication).
+
+### Quiz Routes
+
+- `GET /api/quizzes` - Retrieve all quizzes.
+- `GET /api/quizzes/:id` - Retrieve a specific quiz.
+
+### Tutorial Routes
+
+- `GET /api/tutorials` - Retrieve all tutorials.
 
 ### Error and Miscellaneous Routes
 
