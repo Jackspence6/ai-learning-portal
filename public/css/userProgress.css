@@ -30,6 +30,7 @@ nav ul li {
 nav ul li a {
 	font-family: "Tektur", cursive;
 	text-decoration: 1px dotted whitesmoke underline;
+	font-size: 15px;
 }
 
 body {
@@ -37,13 +38,13 @@ body {
 }
 
 h1 {
-	font-family: monospace;
+	font-family: "Tektur";
 	text-align: center;
 	color: white;
 	text-decoration-thickness: 1px;
 	margin-bottom: 0;
 	margin-top: 4rem;
-	font-size: 4rem;
+	font-size: 25px;
 }
 
 h2 {

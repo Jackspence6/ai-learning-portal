@@ -30,6 +30,7 @@ nav ul li {
 nav ul li a {
 	font-family: "Tektur", cursive;
 	text-decoration: 1px dotted whitesmoke underline;
+	font-size: 15px;
 }
 
 body {
