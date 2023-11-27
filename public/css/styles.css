@@ -110,6 +110,34 @@ div.col.l6.col.s12 {
 div.col.l4.offset-l2.col.s12 {
 	margin-top: 5px;
 }
+
+input#username-login.form-input {
+	padding-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+input#password-login.form-input {
+	padding-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+input#username-signup.form-input {
+	padding-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+input#password-signup.form-input {
+	padding-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
 /******************************************/
 /* Class Selectors */
 /******************************************/
@@ -224,6 +252,7 @@ div.col.l4.offset-l2.col.s12 {
 	border: 5px solid white;
 	padding: 20px;
 	height: 60vh;
+	border-radius: 15px;
 }
 
 #signup-container {
@@ -235,14 +264,21 @@ div.col.l4.offset-l2.col.s12 {
 	border: 5px solid white;
 	padding: 20px;
 	height: 60vh;
+	border-radius: 15px;
 }
 
 #logBtn {
 	background-color: black;
+	border-radius: 10px;
+	font-family: "Roboto";
+	box-shadow: 1px 2px 5px #999;
 }
 
 #SignBtn {
 	background-color: black;
+	border-radius: 10px;
+	font-family: "Roboto";
+	box-shadow: 1px 2px 5px #999;
 }
 
 #btnContainer {
@@ -269,4 +305,11 @@ nav ul a:hover {
 button:hover {
 	background-color: black;
 	color: red;
+	border: 1px solid white;
+}
+
+button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }

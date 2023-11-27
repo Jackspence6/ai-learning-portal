@@ -195,3 +195,8 @@ div.col.l4.offset-l2.col.s12 {
 /******************************************/
 /* Pseudo Classes and Elements */
 /******************************************/
+.card .card-content:hover {
+	padding: 0%;
+	border: 4px dashed red;
+	border-radius: 15px;
+}
