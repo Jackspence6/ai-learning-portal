@@ -12,6 +12,7 @@ An interactive platform dedicated to teaching fundamental AI concepts through ha
 - [Usage](#usage)
 - [Interactive Features](#interactive-features)
 - [API Routes](#api-routes)
+- [Demonstration](#demonstration)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -117,6 +118,36 @@ The application will be running on `localhost:3001`.
 ### Error and Miscellaneous Routes
 
 - `GET /api/*` - Handle any unmatched API routes, returning a 404 JSON response.
+
+## Demonstration
+
+### DB Setup
+
+![Animation cycles through setting up the database and then seeding it with seed data.](./app-demonstration/db-setup.gif)
+
+### App Usage
+
+![Animation cycles through using the app.](./app-demonstration/app-usage.gif)
+
+### New User Sign-up
+
+![Animation cycles through a new user signing up on the app.](./app-demonstration/sign-up.gif)
+
+### Existing User Login
+
+![Animation cycles through an existing user logging into the app.](./app-demonstration/login.gif)
+
+### Tutorial Demonstration
+
+![Animation cycles through a user browsing tutorials and selecting one to do.](./app-demonstration/tutorial.gif)
+
+### Quiz Demonstration
+
+![Animation cycles through a user completing a quiz.](./app-demonstration/quiz.gif)
+
+### User Performance Overview (using seed data)
+
+![Animation cycles through an existing user from seed data viewing their quiz progress overview.](./app-demonstration/user-progress.gif)
 
 ## Contributing
 
