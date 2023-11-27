@@ -41,41 +41,40 @@ router.get("/", async (req, res) => {
 		}
 		const userId = req.session.user_id;
 
-		const user = await Users.findByPk(userId, {
+		// Find the user with associated UserProgress and Quizzes
+		const userProgresses = await UserProgress.findAll({
+			where: { user_id: userId },
+			attributes: ["user_id", "quiz_id", "progress_status", "quiz_scores"],
 			include: [
 				{
-					model: UserProgress,
-					as: "userProgress",
-					include: [
-						{
-							model: Quizzes,
-							attributes: ["id", "topic"],
-						},
-					],
+					model: Quizzes,
+					attributes: ["id", "topic"],
 				},
 			],
 		});
 
-		if (!user) {
-			return res.status(404).render("error", { message: "User not found." });
+		if (!userProgresses) {
+			return res.status(404).json({ message: "User progress not found!" });
 		}
 
 		// Serializing data for Handlebars
-		const quizzesData = user.userProgress.map((progress) => ({
-			id: progress.Quizzes.id,
-			topic: progress.Quizzes.topic,
-			progressStatus: progress.progress_status,
-			quizScore: progress.quiz_scores,
-		}));
+		const quizzesData = userProgresses.map((progress) => {
+			return {
+				id: progress.quiz ? progress.quiz.id : "Not Available",
+				topic: progress.quiz ? progress.quiz.topic : "Not Attempted",
+				progressStatus: progress.progress_status || "Not Started",
+				quizScore: progress.quiz_scores || "No Score",
+			};
+		});
 
 		// Rendering user progress template with data to user
 		res.render("userProgress", {
 			quizzesData,
-			user: { id: userId, name: user.username },
+			user: { id: userId, name: req.session.username },
 		});
-	} catch (error) {
-		console.error(error);
-		res.status(500).render(error, { message: "Error fetching user data." });
+	} catch (err) {
+		console.error(err);
+		res.status(500).json(err);
 	}
 });
 
