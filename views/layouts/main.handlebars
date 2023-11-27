@@ -4,7 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{#if on_homepage}}
     <title>AI Learning Portal</title>
+    {{else}}
+    {{#if logged_in}}
+    {{#if on_tutorialPage}}
+    <title>Tutorials</title>
+    {{else if on_quizPage}}
+    <title>Quizzes</title>
+    {{else if on_singleQuiz}}
+    <title>Quizzes</title>
+    {{else if on_userProgressPage}}
+    <title>User Progress</title>
+    {{else}}
+    <title>AI Learning Portal</title>
+    {{/if}}
+    {{else}}
+    <title>Login/Signup</title>
+    {{/if}}
+    {{/if}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
