@@ -1,6 +1,6 @@
 // Imports & supporting NPM modules
 const router = require("express").Router();
-const { UserProgress, Quizzes, Users } = require("../../models");
+const { UserProgress, Quizzes } = require("../../models");
 
 // Route to save user quiz results and quiz status
 router.post("/", async (req, res) => {
@@ -35,39 +35,49 @@ router.post("/", async (req, res) => {
 // Route to GET user progress by user ID
 router.get("/", async (req, res) => {
 	try {
-		// Check if user is logged in
 		if (!req.session.logged_in) {
 			return res.redirect("/login");
 		}
 		const userId = req.session.user_id;
 
-		// Find the user with associated UserProgress and Quizzes
+		// Fetching all quizzes
+		const allQuizzes = await Quizzes.findAll({
+			attributes: ["id", "topic"],
+		});
+
+		// Fetching user progress
 		const userProgresses = await UserProgress.findAll({
 			where: { user_id: userId },
-			attributes: ["user_id", "quiz_id", "progress_status", "quiz_scores"],
 			include: [
 				{
 					model: Quizzes,
-					attributes: ["id", "topic"],
+					attributes: ["id"],
 				},
 			],
 		});
 
-		if (!userProgresses) {
-			return res.status(404).json({ message: "User progress not found!" });
-		}
+		// Mapping over progress to a dictionary for simplified data collecting
+		const progressDict = userProgresses.reduce((acc, progress) => {
+			if (progress.quiz && progress.quiz.id !== undefined) {
+				acc[progress.quiz.id] = progress;
+			}
+			return acc;
+		}, {});
 
-		// Serializing data for Handlebars
-		const quizzesData = userProgresses.map((progress) => {
+		// Combining all quizzes with user's progress data
+		const quizzesData = allQuizzes.map((quiz) => {
+			const userProgress = progressDict[quiz.id];
 			return {
-				id: progress.quiz ? progress.quiz.id : "Not Available",
-				topic: progress.quiz ? progress.quiz.topic : "Not Attempted",
-				progressStatus: progress.progress_status || "Not Started",
-				quizScore: progress.quiz_scores || "No Score",
+				id: quiz.id,
+				topic: quiz.topic,
+				progressStatus: userProgress
+					? userProgress.progress_status
+					: "Not Attempted",
+				quizScore: userProgress ? userProgress.quiz_scores : "No Score",
 			};
 		});
 
-		// Rendering user progress template with data to user
+		// Rendering user progress to user
 		res.render("userProgress", {
 			quizzesData,
 			user: { id: userId, name: req.session.username },
