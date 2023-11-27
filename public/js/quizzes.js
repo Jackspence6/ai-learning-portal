@@ -4,6 +4,10 @@ var userResponses = {};
 // Object to track if a question has been answered
 var questionsAnswered = {};
 
+// Retrieving the quiz ID from the data attribute
+const quizContainer = document.getElementById("quiz-container");
+const quizId = quizContainer.getAttribute("data-quiz-id");
+
 // Function to handle each questions answer click
 function handleAnswerClick(questionIndex, answerIndex) {
 	// Resetting styles for all answer buttons of this question
@@ -60,6 +64,7 @@ async function displayScoreAndSendResults() {
 		const response = await fetch("/api/progress", {
 			method: "POST",
 			body: JSON.stringify({
+				quiz_id: quizId,
 				progress_status,
 				quiz_scores: scorePercentage,
 			}),

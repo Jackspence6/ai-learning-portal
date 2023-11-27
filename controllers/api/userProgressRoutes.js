@@ -13,16 +13,22 @@ router.post("/", async (req, res) => {
 
 	try {
 		const userId = req.session.user_id;
-		const quizId = req.session.quiz_id;
 
-		const { progress_status, quiz_scores } = req.body;
+		const { quiz_id, progress_status, quiz_scores } = req.body;
+
+		// Checking if quiz_id is provided
+		if (!quiz_id) {
+			return res.status(400).json({ error: "Quiz ID is required!" });
+		}
 
 		const newUserProgress = await UserProgress.create({
 			user_id: userId,
-			quiz_id: quizId,
+			quiz_id: quiz_id,
 			progress_status,
 			quiz_scores,
 		});
+
+		console.log({ newUserProgress });
 
 		res
 			.status(200)
