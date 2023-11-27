@@ -12,7 +12,11 @@
                 advanced learner, our comprehensive resources are designed to
                 enhance your understanding and skills in AI.
             </p>
+            {{#if logged_in}}
             <a href="/api/tutorials"><button>Start Learning</button></a>
+            {{else}}
+            <a href="/login"><button>Start Learning</button></a>
+            {{/if}}
         </div>
     </div>
     <img src="/images/aiImage1.webp" alt="AI Learning Image" />
@@ -31,7 +35,11 @@
                 interactive quizzes. Tailored to reinforce your learning, our
                 quizzes provide instant feedback to help you track your progress.
             </p>
+            {{#if logged_in}}
             <a href="/api/quizzes"><button>Take a Quiz</button></a>
+            {{else}}
+            <a href="/login"><button>Take a Quiz</button></a>
+            {{/if}}
         </div>
     </div>
     <img src="/images/aiImage2.jpeg" alt="Quizzes Image" />
