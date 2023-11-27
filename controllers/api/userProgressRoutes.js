@@ -71,6 +71,7 @@ router.get("/", async (req, res) => {
 		res.render("userProgress", {
 			quizzesData,
 			user: { id: userId, name: req.session.username },
+			on_userProgressPage: true,
 		});
 	} catch (err) {
 		console.error(err);
