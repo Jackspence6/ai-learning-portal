@@ -115,10 +115,6 @@ The application will be running on `localhost:3001`.
 
 - `GET /api/tutorials` - Retrieve all tutorials.
 
-### Error and Miscellaneous Routes
-
-- `GET /api/*` - Handle any unmatched API routes, returning a 404 JSON response.
-
 ## Demonstration
 
 ### DB Setup
