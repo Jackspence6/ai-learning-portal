@@ -170,28 +170,12 @@ div.col.l4.offset-l2.col.s12 {
 	flex-direction: column;
 }
 
-/* Search bar for Quiz Library */
-#library-search {
-	width: 90%;
-	margin: 5rem;
-	border-radius: 2rem;
-}
-
 /* Quiz Library contents container */
 #library-contents-container {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
-
-#search-icon {
-	position: absolute;
-	top: -7px;
-}
-
-#search {
-	margin: 0%;
 }
 /******************************************/
 /* Media queries */

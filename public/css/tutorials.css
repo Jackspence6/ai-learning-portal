@@ -178,24 +178,12 @@ div.col.l4.offset-l2.col.s12 {
 	flex-direction: column;
 }
 
-/* Search bar for resource Library */
-#library-search {
-	width: 90%;
-	margin: 5rem;
-	border-radius: 2rem;
-}
-
 /* Resource Library contents container */
 #library-contents-container {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
-
-#search-icon {
-	position: absolute;
-	top: -7px;
 }
 /******************************************/
 /* Media queries */
