@@ -82,6 +82,7 @@ router.get("/", async (req, res) => {
 			quizzesData,
 			user: { id: userId, name: req.session.username },
 			on_userProgressPage: true,
+			logged_in: req.session.logged_in,
 		});
 	} catch (err) {
 		console.error(err);
