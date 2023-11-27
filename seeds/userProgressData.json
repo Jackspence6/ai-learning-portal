@@ -3,24 +3,24 @@
 		"user_id": 1,
 		"quiz_id": 1,
 		"progress_status": "Completed",
-		"quiz_scores": "{\"score\": 80}"
+		"quiz_scores": 60
 	},
 	{
 		"user_id": 1,
 		"quiz_id": 2,
 		"progress_status": "Completed",
-		"quiz_scores": "{\"score\": 80}"
+		"quiz_scores": 50
 	},
 	{
 		"user_id": 1,
 		"quiz_id": 3,
-		"progress_status": "Not Started",
-		"quiz_scores": "{\"score\": 80}"
+		"progress_status": "Completed",
+		"quiz_scores": 80
 	},
 	{
 		"user_id": 1,
 		"quiz_id": 4,
 		"progress_status": "Completed",
-		"quiz_scores": "{\"score\": 80}"
+		"quiz_scores": 90
 	}
 ]

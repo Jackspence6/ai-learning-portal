@@ -1,6 +1,6 @@
 // Imports & supporting NPM modules
 const router = require("express").Router();
-const { UserProgress, Quizzes } = require("../../models");
+const { UserProgress, Quizzes, Users } = require("../../models");
 
 // Route to save user quiz results and quiz status
 router.post("/", async (req, res) => {
@@ -39,6 +39,7 @@ router.get("/", async (req, res) => {
 			return res.redirect("/login");
 		}
 		const userId = req.session.user_id;
+		const username = req.session.username;
 
 		// Fetching all quizzes
 		const allQuizzes = await Quizzes.findAll({
@@ -52,6 +53,10 @@ router.get("/", async (req, res) => {
 				{
 					model: Quizzes,
 					attributes: ["id"],
+				},
+				{
+					model: Users,
+					attributes: ["username"],
 				},
 			],
 		});
@@ -73,14 +78,14 @@ router.get("/", async (req, res) => {
 				progressStatus: userProgress
 					? userProgress.progress_status
 					: "Not Attempted",
-				quizScore: userProgress ? userProgress.quiz_scores : "No Score",
+				quizScore: userProgress ? userProgress.quiz_scores + "%" : "N/A",
 			};
 		});
 
 		// Rendering user progress to user
 		res.render("userProgress", {
 			quizzesData,
-			user: { id: userId, name: req.session.username },
+			user: { id: userId, name: username },
 			on_userProgressPage: true,
 			logged_in: req.session.logged_in,
 		});

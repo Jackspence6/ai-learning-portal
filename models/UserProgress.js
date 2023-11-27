@@ -35,7 +35,7 @@ UserProgress.init(
 			defaultValue: "Not Started",
 		},
 		quiz_scores: {
-			type: DataTypes.JSON,
+			type: DataTypes.FLOAT,
 			allowNull: true,
 		},
 	},

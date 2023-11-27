@@ -44,21 +44,16 @@ function evaluateAnswers() {
 			totalCorrect++;
 		}
 	}
+	// Calculating score as a percentage
+	return (totalCorrect / correctAnswers.length) * 100;
 }
 
 // Function to display users quiz score and save results once quiz is completed
 async function displayScoreAndSendResults() {
-	evaluateAnswers();
+	const scorePercentage = evaluateAnswers();
 
-	alert(
-		"Your score: " + totalCorrect + " out of " + correctAnswers.length + "!"
-	);
+	alert("Your score: " + scorePercentage.toFixed(0) + "%");
 
-	const quiz_scores = {
-		totalCorrect,
-		totalQuestions: correctAnswers.length,
-		userResponses,
-	};
 	const progress_status = "Completed";
 
 	try {
@@ -66,7 +61,7 @@ async function displayScoreAndSendResults() {
 			method: "POST",
 			body: JSON.stringify({
 				progress_status,
-				quiz_scores,
+				quiz_scores: scorePercentage,
 			}),
 			headers: {
 				"Content-Type": "application/json",
