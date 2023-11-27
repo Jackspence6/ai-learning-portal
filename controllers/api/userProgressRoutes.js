@@ -1,6 +1,6 @@
 // Imports & supporting NPM modules
 const router = require("express").Router();
-const { UserProgress, Quizzes } = require("../../models");
+const { UserProgress, Quizzes, Users } = require("../../models");
 
 // Route to save user quiz results and quiz status
 router.post("/", async (req, res) => {
@@ -29,6 +29,53 @@ router.post("/", async (req, res) => {
 			.json({ message: "Quiz results saved successfully!", newUserProgress });
 	} catch (err) {
 		res.status(500).json(err);
+	}
+});
+
+// Route to GET user progress by user ID
+router.get("/", async (req, res) => {
+	try {
+		// Check if user is logged in
+		if (!req.session.logged_in) {
+			return res.redirect("/login");
+		}
+		const userId = req.session.user_id;
+
+		const user = await Users.findByPk(userId, {
+			include: [
+				{
+					model: UserProgress,
+					as: "userProgress",
+					include: [
+						{
+							model: Quizzes,
+							attributes: ["id", "topic"],
+						},
+					],
+				},
+			],
+		});
+
+		if (!user) {
+			return res.status(404).render("error", { message: "User not found." });
+		}
+
+		// Serializing data for Handlebars
+		const quizzesData = user.userProgress.map((progress) => ({
+			id: progress.Quizzes.id,
+			topic: progress.Quizzes.topic,
+			progressStatus: progress.progress_status,
+			quizScore: progress.quiz_scores,
+		}));
+
+		// Rendering user progress template with data to user
+		res.render("userProgress", {
+			quizzesData,
+			user: { id: userId, name: user.username },
+		});
+	} catch (error) {
+		console.error(error);
+		res.status(500).render(error, { message: "Error fetching user data." });
 	}
 });
 
