@@ -14,5 +14,13 @@ router.use("/quizzes", quizRoutes);
 router.use("/tutorials", tutorialRoutes);
 router.use("/examples", exampleCodeRoutes);
 
+// Catch-all route for any unmatched API routes, returning a 404 JSON response.
+router.get("/*", (req, res) => {
+	res.status(404).json({
+		message: "Not Found!",
+		error: "The requested endpoint does not exist!",
+	});
+});
+
 // Exports
 module.exports = router;
