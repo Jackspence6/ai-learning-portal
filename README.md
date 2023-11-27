@@ -4,6 +4,10 @@
 
 An interactive platform dedicated to teaching fundamental AI concepts through hands-on tutorials. This app provides a unique learning experience, combining theoretical knowledge with practical coding exercises, making AI learning accessible and engaging.
 
+## Live Heroku Link
+
+You can explore the live application of the AI Learning Portal on Heroku: [AI Learning Portal](https://ai-learning-portal-c3740c057c06.herokuapp.com/)
+
 ## Table of Contents
 
 - [Installation](#installation)
