@@ -22,6 +22,16 @@ nav .brand-logo {
 	font-size: 4.5rem;
 }
 
+nav ul li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+nav ul li a {
+	font-family: "Tektur", cursive;
+	text-decoration: 1px dotted whitesmoke underline;
+}
+
 body {
 	background-color: #24292e;
 }
