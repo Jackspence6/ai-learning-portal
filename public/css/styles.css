@@ -288,8 +288,9 @@ input#password-signup.form-input {
 /******************************************/
 /* Media queries */
 /******************************************/
+/* Extra small devices */
 @media only screen and (max-width: 600px) {
-	/* 1rem is 8px */
+	/* 1rem is 6px */
 	html {
 		font-size: 6px;
 	}
@@ -302,6 +303,46 @@ input#password-signup.form-input {
 	/* Feature Images */
 	img {
 		height: 15rem;
+		width: auto;
+		border-radius: 1rem;
+	}
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+	/* 1rem is 8px */
+	html {
+		font-size: 8px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	/* Feature Images */
+	img {
+		height: 17rem;
+		width: auto;
+		border-radius: 1rem;
+	}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+	/* 1rem is 10px */
+	html {
+		font-size: 10px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	/* Feature Images */
+	img {
+		height: 20rem;
 		width: auto;
 		border-radius: 1rem;
 	}
