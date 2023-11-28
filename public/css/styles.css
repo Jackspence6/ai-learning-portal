@@ -291,7 +291,7 @@ input#password-signup.form-input {
 @media only screen and (max-width: 600px) {
 	/* 1rem is 8px */
 	html {
-		font-size: 8px;
+		font-size: 6px;
 	}
 
 	/* Logo Icon */
@@ -301,7 +301,7 @@ input#password-signup.form-input {
 
 	/* Feature Images */
 	img {
-		height: 20rem;
+		height: 15rem;
 		width: auto;
 		border-radius: 1rem;
 	}
