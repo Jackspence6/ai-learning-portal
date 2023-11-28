@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
 	font-family: "Tektur", cursive;
 	text-decoration: 1px dotted whitesmoke underline;
-	font-size: 15px;
+	font-size: 1.15rem;
 }
 
 body {
@@ -57,14 +57,14 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.54rem;
 	color: white;
 	text-decoration: 1px solid white underline;
 	font-family: monospace;
 }
 
 h4 {
-	font-size: 15px;
+	font-size: 1.15rem;
 	text-align: center;
 	color: white;
 	font-family: "Roboto Mono";
@@ -76,7 +76,7 @@ h4 {
 	border-top: 1px solid;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border-radius: 5px;
+	border-radius: 0.38rem;
 	width: 65%;
 }
 
@@ -103,15 +103,15 @@ img {
 }
 
 div.col.l6.col.s12 {
-	margin-top: 5px;
+	margin-top: 0.38rem;
 }
 
 div.col.l4.offset-l2.col.s12 {
-	margin-top: 5px;
+	margin-top: 0.38rem;
 }
 
 li::marker {
-	font-size: 18px;
+	font-size: 1.38rem;
 	color: white;
 	font-weight: bold;
 }
@@ -128,7 +128,7 @@ hr {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10px;
+	padding: 0 0.77rem;
 }
 
 .card {
@@ -143,7 +143,7 @@ hr {
 .card .card-content {
 	padding: 0%;
 	border: 2px dashed white;
-	border-radius: 15px;
+	border-radius: 1.15rem;
 }
 
 .col.s12 {
@@ -185,14 +185,14 @@ hr {
 
 .card .card-title {
 	font-weight: bold;
-	border-bottom: 5px solid black;
+	border-bottom: 0.38rem solid black;
 	text-align: center;
 	font-family: roboto mono;
-	font-size: 20px;
+	font-size: 1.54rem;
 }
 
 .footer-container {
-	padding: 10px;
+	padding: 0.77rem;
 }
 
 .page-footer {
@@ -210,14 +210,14 @@ hr {
 }
 
 .quiz-container {
-	margin: 20px;
-	padding: 20px;
+	margin: 1.54rem;
+	padding: 1.54rem;
 	border: 1px solid #ddd;
-	border-radius: 8px;
+	border-radius: 0.62rem;
 }
 
 .question {
-	margin-bottom: 15px;
+	margin-bottom: 1.15rem;
 	display: flex;
 	flex-direction: column;
 }
@@ -225,15 +225,15 @@ hr {
 .answer-btn {
 	font-size: 75%;
 	display: inline-block;
-	margin: 5px;
-	padding: 5px;
+	margin: 0.38rem;
+	padding: 0.38rem;
 	background-color: #f9f9f9;
 	border: 1px solid #ccc;
-	border-radius: 10px;
+	border-radius: 0.77rem;
 	cursor: pointer;
 	width: 20rem;
 	height: 3rem;
-	margin-left: 15px;
+	margin-left: 1.15rem;
 	font-family: system-ui;
 	font-weight: bold;
 	color: black;

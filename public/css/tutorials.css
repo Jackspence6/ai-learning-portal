@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
 	font-family: "Tektur", cursive;
 	text-decoration: 1px dotted whitesmoke underline;
-	font-size: 15px;
+	font-size: 1.15rem;
 }
 
 body {
@@ -82,11 +82,11 @@ img {
 }
 
 div.col.l6.col.s12 {
-	margin-top: 5px;
+	margin-top: 0.38rem;
 }
 
 div.col.l4.offset-l2.col.s12 {
-	margin-top: 5px;
+	margin-top: 0.38rem;
 }
 /******************************************/
 /* Class Selectors */
@@ -95,7 +95,7 @@ div.col.l4.offset-l2.col.s12 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10px;
+	padding: 0 0.77rem;
 }
 
 .card {
@@ -162,14 +162,14 @@ div.col.l4.offset-l2.col.s12 {
 
 .card .card-title {
 	font-weight: bold;
-	border-bottom: 5px solid black;
+	border-bottom: 0.38rem solid black;
 	text-align: center;
 	font-family: roboto mono;
-	font-size: 20px;
+	font-size: 1.54rem;
 }
 
 .footer-container {
-	padding: 10px;
+	padding: 0.77rem;
 }
 
 .page-footer {

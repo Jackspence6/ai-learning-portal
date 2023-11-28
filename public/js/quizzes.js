@@ -75,7 +75,7 @@ async function displayScoreAndSendResults() {
 
 		if (response.ok) {
 			console.log("Quiz results saved successfully!");
-			window.location.href = "/";
+			window.location.href = "/api/quizzes";
 		} else {
 			console.error("Failed to save quiz results");
 		}
