@@ -191,7 +191,124 @@ div.col.l4.offset-l2.col.s12 {
 /******************************************/
 /* Media queries */
 /******************************************/
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+	/* 1rem is 6px */
+	html {
+		font-size: 6px;
+	}
 
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-title {
+		font-size: 7px;
+	}
+
+	.card .card-content {
+		padding: 0%;
+		border: 1px dashed white;
+		border-radius: 1.15rem;
+	}
+
+	.card .card-content .card-title {
+		display: block;
+		line-height: 10px;
+		margin-bottom: 8px;
+	}
+}
+/* Small devices */
+@media only screen and (min-width: 600px) {
+	/* 1rem is 8px */
+	html {
+		font-size: 8px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-title {
+		font-size: 10px;
+	}
+
+	.card .card-content {
+		padding: 0%;
+		border: 1px dashed white;
+		border-radius: 1.15rem;
+	}
+
+	.card .card-content .card-title {
+		display: block;
+		line-height: 10px;
+		margin-bottom: 8px;
+	}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+	/* 1rem is 10px */
+	html {
+		font-size: 10px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-title {
+		font-size: 15px;
+	}
+
+	.card .card-content {
+		padding: 0%;
+		border: 2px dashed white;
+		border-radius: 1.15rem;
+	}
+
+	.card .card-content .card-title {
+		display: block;
+		line-height: 20px;
+		margin-bottom: 8px;
+	}
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+	/* 1rem is 13px */
+	html {
+		font-size: 13px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		font-size: 4.5rem;
+	}
+
+	.card .card-title {
+		font-weight: bold;
+		border-bottom: 0.38rem solid black;
+		text-align: center;
+		font-family: roboto mono;
+		font-size: 1.54rem;
+	}
+
+	.card .card-content {
+		padding: 0%;
+		border: 2px dashed white;
+		border-radius: 1.15rem;
+	}
+
+	.card .card-content .card-title {
+		font-weight: bold;
+		font-family: monospace;
+		margin: 0;
+	}
+}
 /******************************************/
 /* Pseudo Classes and Elements */
 /******************************************/
