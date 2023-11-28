@@ -288,7 +288,24 @@ input#password-signup.form-input {
 /******************************************/
 /* Media queries */
 /******************************************/
+@media only screen and (max-width: 600px) {
+	/* 1rem is 8px */
+	html {
+		font-size: 8px;
+	}
 
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	/* Feature Images */
+	img {
+		height: 20rem;
+		width: auto;
+		border-radius: 1rem;
+	}
+}
 /******************************************/
 /* Pseudo Classes and Elements */
 /******************************************/
