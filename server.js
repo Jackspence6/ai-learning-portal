@@ -18,7 +18,7 @@ const sess = {
 	secret: process.env.SESS_SECRET,
 	cookie: {
 		// 1 Day
-		maxAge: 86400,
+		maxAge: 86400000,
 	},
 	resave: false,
 	saveUninitialized: true,
