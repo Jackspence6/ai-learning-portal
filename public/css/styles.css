@@ -306,6 +306,30 @@ input#password-signup.form-input {
 		width: auto;
 		border-radius: 1rem;
 	}
+
+	#login-container {
+		width: 35rem;
+		margin: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 50vh;
+		border-radius: 1.15rem;
+	}
+
+	#signup-container {
+		width: 35rem;
+		margin: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 50vh;
+		border-radius: 1.15rem;
+	}
 }
 
 /* Small devices */
@@ -326,6 +350,30 @@ input#password-signup.form-input {
 		width: auto;
 		border-radius: 1rem;
 	}
+
+	#login-container {
+		width: 35rem;
+		margin: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 50vh;
+		border-radius: 1.15rem;
+	}
+
+	#signup-container {
+		width: 35rem;
+		margin: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 50vh;
+		border-radius: 1.15rem;
+	}
 }
 
 /* Medium devices */
@@ -345,6 +393,75 @@ input#password-signup.form-input {
 		height: 20rem;
 		width: auto;
 		border-radius: 1rem;
+	}
+
+	#login-container {
+		width: 37rem;
+		margin: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 55vh;
+		border-radius: 1.15rem;
+	}
+
+	#signup-container {
+		width: 37rem;
+		margin: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 55vh;
+		border-radius: 1.15rem;
+	}
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+	/* 1rem is 13px */
+	html {
+		font-size: 13px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		font-size: 4.5rem;
+	}
+
+	/* Feature Images */
+	img {
+		height: 30rem;
+		width: 45rem;
+		border-radius: 1rem;
+		order: 2;
+	}
+
+	#login-container {
+		width: 40rem;
+		margin: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 60vh;
+		border-radius: 1.15rem;
+	}
+
+	#signup-container {
+		width: 40rem;
+		margin: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 0.38rem solid white;
+		padding: 1.54rem;
+		height: 60vh;
+		border-radius: 1.15rem;
 	}
 }
 /******************************************/
