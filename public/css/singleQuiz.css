@@ -277,9 +277,9 @@ hr {
 /******************************************/
 /* Extra small devices */
 @media only screen and (max-width: 600px) {
-	/* 1rem is 6px */
+	/* 1rem is 5px */
 	html {
-		font-size: 6px;
+		font-size: 5px;
 	}
 
 	/* Logo Icon */
