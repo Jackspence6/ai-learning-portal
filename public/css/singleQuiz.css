@@ -275,7 +275,124 @@ hr {
 /******************************************/
 /* Media queries */
 /******************************************/
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+	/* 1rem is 6px */
+	html {
+		font-size: 6px;
+	}
 
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1.15rem;
+		text-align: center;
+		color: white;
+		font-family: "Roboto Mono";
+		margin: 3rem;
+		font-style: italic;
+		padding-left: 5rem;
+		padding-right: 5rem;
+		border-bottom: 1px solid;
+		border-top: 1px solid;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-radius: 0.38rem;
+		width: 65%;
+	}
+}
+/* Small devices */
+@media only screen and (min-width: 600px) {
+	/* 1rem is 8px */
+	html {
+		font-size: 8px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1.15rem;
+		text-align: center;
+		color: white;
+		font-family: "Roboto Mono";
+		margin: 3rem;
+		font-style: italic;
+		padding-left: 10rem;
+		padding-right: 10rem;
+		border-bottom: 1px solid;
+		border-top: 1px solid;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-radius: 0.38rem;
+		width: 65%;
+	}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+	/* 1rem is 10px */
+	html {
+		font-size: 10px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1.15rem;
+		text-align: center;
+		color: white;
+		font-family: "Roboto Mono";
+		margin: 3rem;
+		font-style: italic;
+		padding-left: 5rem;
+		padding-right: 5rem;
+		border-bottom: 1px solid;
+		border-top: 1px solid;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-radius: 0.38rem;
+		width: 65%;
+	}
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+	/* 1rem is 13px */
+	html {
+		font-size: 13px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		font-size: 4.5rem;
+	}
+
+	h4 {
+		font-size: 1.15rem;
+		text-align: center;
+		color: white;
+		font-family: "Roboto Mono";
+		margin: 3rem;
+		font-style: italic;
+		padding-left: 20rem;
+		padding-right: 20rem;
+		border-bottom: 1px solid;
+		border-top: 1px solid;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-radius: 0.38rem;
+		width: 65%;
+	}
+}
 /******************************************/
 /* Pseudo Classes and Elements */
 /******************************************/
