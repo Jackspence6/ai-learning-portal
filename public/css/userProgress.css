@@ -179,7 +179,72 @@ table {
 /******************************************/
 /* Media queries */
 /******************************************/
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+	/* 1rem is 3px */
+	html {
+		font-size: 3px;
+	}
 
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-content {
+		padding: 1px;
+	}
+}
+/* Small devices */
+@media only screen and (min-width: 600px) {
+	/* 1rem is 6px */
+	html {
+		font-size: 6px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-content {
+		padding: 1px;
+	}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+	/* 1rem is 7px */
+	html {
+		font-size: 7px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		display: none;
+	}
+
+	.card .card-content {
+		padding: 1px;
+	}
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+	/* 1rem is 13px */
+	html {
+		font-size: 13px;
+	}
+
+	/* Logo Icon */
+	nav .brand-logo {
+		font-size: 4.5rem;
+	}
+
+	.card .card-content {
+		padding: 2.3rem;
+	}
+}
 /******************************************/
 /* Pseudo Classes and Elements */
 /******************************************/
