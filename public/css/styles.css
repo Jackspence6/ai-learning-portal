@@ -290,9 +290,17 @@ input#password-signup.form-input {
 /******************************************/
 /* Extra small devices */
 @media only screen and (max-width: 600px) {
-	/* 1rem is 5px */
+	/* 1rem is 11px */
 	html {
+		font-size: 11px;
+	}
+
+	nav ul li a {
 		font-size: 5px;
+	}
+
+	h1 {
+		font-size: 0.9rem;
 	}
 
 	/* Logo Icon */
@@ -302,7 +310,7 @@ input#password-signup.form-input {
 
 	/* Feature Images */
 	img {
-		height: 15rem;
+		height: 10rem;
 		width: auto;
 		border-radius: 1rem;
 	}
@@ -430,6 +438,19 @@ input#password-signup.form-input {
 	/* Logo Icon */
 	nav .brand-logo {
 		font-size: 4.5rem;
+	}
+
+	nav ul li a {
+		font-family: "Tektur", cursive;
+		text-decoration: 0.08rem dotted whitesmoke underline;
+		font-size: 1.15rem;
+	}
+
+	h1 {
+		font-family: "Edu SA Beginner", cursive;
+		font-size: 2rem;
+		color: white;
+		margin-top: 0.77rem;
 	}
 
 	/* Feature Images */
