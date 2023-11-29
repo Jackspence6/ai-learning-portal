@@ -193,9 +193,17 @@ div.col.l4.offset-l2.col.s12 {
 /******************************************/
 /* Extra small devices */
 @media only screen and (max-width: 600px) {
-	/* 1rem is 5px */
+	/* 1rem is 8px */
 	html {
+		font-size: 8px;
+	}
+
+	nav ul li a {
 		font-size: 5px;
+	}
+
+	h1 {
+		font-size: 3rem;
 	}
 
 	/* Logo Icon */
@@ -250,9 +258,9 @@ div.col.l4.offset-l2.col.s12 {
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
-	/* 1rem is 10px */
+	/* 1rem is 12px */
 	html {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	/* Logo Icon */
@@ -287,6 +295,19 @@ div.col.l4.offset-l2.col.s12 {
 	/* Logo Icon */
 	nav .brand-logo {
 		font-size: 4.5rem;
+	}
+
+	nav ul li a {
+		font-family: "Tektur", cursive;
+		text-decoration: 0.08rem dotted whitesmoke underline;
+		font-size: 1.15rem;
+	}
+
+	h1 {
+		font-family: "Edu SA Beginner", cursive;
+		font-size: 4rem;
+		color: white;
+		margin-top: 0.77rem;
 	}
 
 	.card .card-title {
