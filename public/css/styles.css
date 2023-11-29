@@ -303,6 +303,26 @@ input#password-signup.form-input {
 		font-size: 0.9rem;
 	}
 
+	h3 {
+		font-family: "Tektur", cursive;
+		font-size: 15px;
+		color: white;
+		margin-bottom: 1.54rem;
+		text-align: center;
+		border-bottom: 0.08rem solid;
+		padding: 0.38rem;
+	}
+
+	h4 {
+		font-family: "Tektur", cursive;
+		font-size: 25px;
+		color: white;
+		text-align: center;
+		padding: 0.38rem;
+		margin-top: 5rem;
+		text-decoration: 0.08rem underline;
+	}
+
 	/* Logo Icon */
 	nav .brand-logo {
 		display: none;
@@ -314,28 +334,34 @@ input#password-signup.form-input {
 		width: auto;
 		border-radius: 1rem;
 	}
+	#login-page {
+		height: 65vh;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 
 	#login-container {
-		width: 35rem;
-		margin: 3rem;
+		width: 40rem;
+		margin: 1rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border: 0.38rem solid white;
+		border: 2px solid white;
 		padding: 1.54rem;
-		height: 50vh;
+		height: 25vh;
 		border-radius: 1.15rem;
 	}
 
 	#signup-container {
-		width: 35rem;
-		margin: 3rem;
+		width: 40rem;
+		margin: 1rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border: 0.38rem solid white;
+		border: 2px solid white;
 		padding: 1.54rem;
-		height: 50vh;
+		height: 25vh;
 		border-radius: 1.15rem;
 	}
 }
@@ -451,6 +477,26 @@ input#password-signup.form-input {
 		font-size: 2rem;
 		color: white;
 		margin-top: 0.77rem;
+	}
+
+	h3 {
+		font-family: "Tektur", cursive;
+		font-size: 2rem;
+		color: white;
+		margin-bottom: 1.54rem;
+		text-align: center;
+		border-bottom: 0.08rem solid;
+		padding: 0.38rem;
+	}
+
+	h4 {
+		font-family: "Tektur", cursive;
+		font-size: 3rem;
+		color: white;
+		text-align: center;
+		padding: 0.38rem;
+		margin-top: 5rem;
+		text-decoration: 0.08rem underline;
 	}
 
 	/* Feature Images */
