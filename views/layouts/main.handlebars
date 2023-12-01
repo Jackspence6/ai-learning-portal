@@ -57,34 +57,36 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="nav-wrapper navbar">
-            <a class="brand-logo center material-symbols-outlined">network_node</a>
-            <ul class="right">
-                <li><a href="/">Home</a></li>
-                {{#if logged_in}}
-                <li><a href="/api/tutorials">Tutorials</a></li>
-                <li><a href="/api/quizzes">Quizzes</a></li>
-                <li><a href="/api/progress">Performance Overview</a></li>
-                <li><a id="logout" href="/api/users/logout">Logout</a></li>
-                {{else}}
-                <li><a href="/login">Tutorials</a></li>
-                <li><a href="/login">Quizzes</a></li>
-                <li><a href="/login">Performance Overview</a></li>
-                <li><a href="/login">Login</a></li>
-                {{/if}}
-            </ul>
-        </div>
-    </nav>
+    <div class="page-content">
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="nav-wrapper navbar">
+                <a class="brand-logo center material-symbols-outlined">network_node</a>
+                <ul class="right">
+                    <li><a href="/">Home</a></li>
+                    {{#if logged_in}}
+                    <li><a href="/api/tutorials">Tutorials</a></li>
+                    <li><a href="/api/quizzes">Quizzes</a></li>
+                    <li><a href="/api/progress">Performance Overview</a></li>
+                    <li><a id="logout" href="/api/users/logout">Logout</a></li>
+                    {{else}}
+                    <li><a href="/login">Tutorials</a></li>
+                    <li><a href="/login">Quizzes</a></li>
+                    <li><a href="/login">Performance Overview</a></li>
+                    <li><a href="/login">Login</a></li>
+                    {{/if}}
+                </ul>
+            </div>
+        </nav>
 
-    {{{ body }}}
+        {{{ body }}}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="https://kit.fontawesome.com/6539c9d692.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+            integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="https://kit.fontawesome.com/6539c9d692.js" crossorigin="anonymous"></script>
+    </div>
 </body>
 <!-- Footer -->
 <footer class="page-footer">
@@ -102,7 +104,7 @@
                 <ul class="right-align">
                     <li>
                         <a class="grey-text text-lighten-3" href="mailto:jackspence.dev@gmail.com">
-                            <i class="material-icons left"style="font-size: 1.85rem;">email</i>jackspence.dev@gmail.com
+                            <i class="material-icons left" style="font-size: 1.85rem;">email</i>jackspence.dev@gmail.com
                         </a>
                     </li>
                     <li style="margin-top: 5px;">

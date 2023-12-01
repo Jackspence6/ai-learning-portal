@@ -34,6 +34,10 @@ nav ul li a {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
 	background-color: #24292e;
 }
 
@@ -156,6 +160,11 @@ input#password-signup.form-input {
 	margin-bottom: 1.54rem;
 	padding: 0.77rem;
 	margin-top: 5rem;
+	width: 100%;
+}
+
+.page-content {
+	flex-grow: 1;
 }
 
 /* Feature Content */

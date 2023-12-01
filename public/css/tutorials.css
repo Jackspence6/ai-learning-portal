@@ -394,6 +394,8 @@ div.col.l4.offset-l2.col.s12 {
 		padding-bottom: 1rem;
 		border-bottom: 2px solid white;
 		font-family: roboto mono;
+		line-height: normal;
+		font-size: 15px;
 	}
 
 	.material-icons.right {
