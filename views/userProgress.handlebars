@@ -1,28 +1,31 @@
-<h1><i class="fa-solid fa-down-long fa-beat-fade" style="color: #ffffff;padding: 0.78rem;"></i>{{user.name}}'s Performance
-    Overview <i class="fa-solid fa-down-long fa-beat-fade" style="color: #ffffff;padding: 0.78rem;"></i></h1>
-<div id="progress-container">
-    <div class="card performance-card">
-        <div class="card-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Quiz ID:</th>
-                        <th>Quiz Topic:</th>
-                        <th>Activity Status:</th>
-                        <th>Quiz Score:</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {{#each quizzesData}}
-                    <tr>
-                        <td>{{this.id}}</td>
-                        <td>{{this.topic}}</td>
-                        <td>{{this.progressStatus}}</td>
-                        <td>{{this.quizScore}}</td>
-                    </tr>
-                    {{/each}}
-                </tbody>
-            </table>
+<div class="page-content">
+    <h1><i class="fa-solid fa-down-long fa-beat-fade" style="color: #ffffff;padding: 0.78rem;"></i>{{user.name}}'s
+        Performance
+        Overview <i class="fa-solid fa-down-long fa-beat-fade" style="color: #ffffff;padding: 0.78rem;"></i></h1>
+    <div id="progress-container">
+        <div class="card performance-card">
+            <div class="card-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quiz ID:</th>
+                            <th>Quiz Topic:</th>
+                            <th>Activity Status:</th>
+                            <th>Quiz Score:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each quizzesData}}
+                        <tr>
+                            <td>{{this.id}}</td>
+                            <td>{{this.topic}}</td>
+                            <td>{{this.progressStatus}}</td>
+                            <td>{{this.quizScore}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
